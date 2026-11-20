@@ -1,0 +1,147 @@
+2026-11-18 23:26:13 INFO  P500DisableAnalyzers.java> PRE_ANALYSIS_DISABLED_ANALYZERS=30  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000000FC COUNT=8  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000002A8 COUNT=7  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x00074028 COUNT=8  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> IMAGE_BASE_REMAINS=00000000  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> FUNCTIONS_BEFORE=0  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> SELECTED_CODE_AND_DATA_BYTES=2236  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=ASCII Strings  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=STRINGS_ONLY_FULL_IMAGE ADDRESS_COUNT=7471104  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=Scalar Operand References, Function Start Search, Data Reference, ARM Constant Reference Analyzer, Reference, Subroutine References, Function Start Search After Code, Stack  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=LIMITED_CODE_REGIONS ADDRESS_COUNT=2236  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> FUNCTIONS_TOTAL=0  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> FUNCTIONS_IN_SELECTED_REGIONS=0  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> INSTRUCTIONS_IN_SELECTED_REGIONS=209  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> INSTRUCTION_BYTES_IN_SELECTED_REGIONS=836  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> APPROX_IMAGE_CODE_COVERAGE_PERCENT=0.0112  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> CALL_EDGES_FROM_SELECTED_FUNCTIONS=0  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> ASCII_STRINGS_TOTAL=0  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> ASCII_STRINGS_REFERENCED=0  
+2026-11-18 23:26:14 INFO  P500LimitedAnalysisScript.java> ASCII_STRINGS_MATCHED_TERMS=0  
+2026-11-18 23:28:16 INFO  P500DisableAnalyzers.java> PRE_ANALYSIS_DISABLED_ANALYZERS=30  
+2026-11-18 23:28:16 INFO  P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000000FC COUNT=8  
+2026-11-18 23:28:16 INFO  P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000002A8 COUNT=7  
+2026-11-18 23:28:16 INFO  P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x00074028 COUNT=8  
+2026-11-18 23:28:16 INFO  P500LimitedAnalysisScript.java> IMAGE_BASE_REMAINS=00000000  
+2026-11-18 23:28:16 INFO  P500LimitedAnalysisScript.java> FUNCTIONS_BEFORE=0  
+2026-11-18 23:28:16 INFO  P500LimitedAnalysisScript.java> SELECTED_CODE_AND_DATA_BYTES=2236  
+2026-11-18 23:28:16 INFO  P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=ASCII Strings  
+2026-11-18 23:28:16 INFO  P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=STRINGS_ONLY_FULL_IMAGE ADDRESS_COUNT=7471104  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=Scalar Operand References, Function Start Search, Data Reference, ARM Constant Reference Analyzer, Reference, Subroutine References, Function Start Search After Code, Stack  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=LIMITED_CODE_REGIONS ADDRESS_COUNT=2236  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> FUNCTIONS_TOTAL=44  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> FUNCTIONS_IN_SELECTED_REGIONS=18  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> INSTRUCTIONS_IN_SELECTED_REGIONS=332  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> INSTRUCTION_BYTES_IN_SELECTED_REGIONS=1328  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> APPROX_IMAGE_CODE_COVERAGE_PERCENT=0.0178  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 000003f0 -> 00006aec  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 000002c4  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 000086e4  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00009a58  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 000002dc  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00009f80  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 0000a68c  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00008c58  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 000090a4  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 0000b794  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00008754  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 0000a704  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 0000ab0c  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00000318  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> CALL_EDGES_FROM_SELECTED_FUNCTIONS=14  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00281BE4 refs=false value=NIKON DIGITAL CAMERA  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0029BA5C refs=false value=NIKON CO.,LTD.  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x002A5170 refs=false value=NIKON DIGITAL CAMERA  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00521984 refs=false value=Opticalflow protect return error!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x005219A8 refs=false value=Protect color format error!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x005219C4 refs=false value=Opticalflow protect image size return error!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x005219F4 refs=false value=AMCM_CreateTracker error!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00521A10 refs=false value=MMemAlloc pTrackPixel error!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00521E74 refs=false value=AMCM_GlobalMatching error!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x005CFF98 refs=false value=nec_nc error --- short block   
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x005CFFC0 refs=false value=No error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00602A00 refs=false value=Slave not boot  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00602CD8 refs=false value=lens_mtr_drv_master_task_start  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00602DC0 refs=false value=External DDR buffer address error!!!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00603FB0 refs=false value=[SM :ERR] _CopyValidScts : VN_Copy Error!! (Vol %d, Part %d)  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006144FC refs=false value=ERROR!! %08x  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006147AC refs=false value=ERROR!! %08x  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00619760 refs=false value=errorStatus  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0061976C refs=false value=errorReason  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0061AF24 refs=false value=NIKON DIGITAL CAMERA  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0061F53C refs=false value=CamDownloadFirmwareHandle  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0061FC10 refs=false value=NIKON CO.,LTD.  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006202F8 refs=false value=FIRMWAREBIN  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620324 refs=false value=FIRMWAREBIN  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620330 refs=false value=FIRMWARE     
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620A0E refs=false value=ERROR CS AND LS  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620A1E refs=false value=ERROR CS AND FS  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620A2E refs=false value=ERROR LS AND FS  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620A3E refs=false value=ERROR CS LS FS  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620A4E refs=false value=ERROR CS  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620A5A refs=false value=ERROR LS  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620A66 refs=false value=ERROR FS  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620AF8 refs=false value=NIKON DIGITAL CAMERA                               
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620C90 refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00620CB0 refs=false value=FIRMWARE.BIN  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00623528 refs=false value=error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00623544 refs=false value=error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0062356C refs=false value=error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00623578 refs=false value=error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00623594 refs=false value=error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00623AEC refs=false value=System error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006461E0 refs=false value=COOLPIX P500V1.1  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0064668C refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00646CB0 refs=false value=Nikon Corporation  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00646DE0 refs=false value=xmlns:nc ="http://www.nikon.co.jp/imaging/coolpix/favorite">  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00646E20 refs=false value=xmlns:nc ="http://www.nikon.co.jp/imaging/coolpix/Transfer">  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00646E78 refs=false value=NikonCorp.  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00647200 refs=false value=Nikon Corporation  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00647423 refs=false value=FIRMWARE  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006475C4 refs=false value=xmlns:nc ="http://www.nikon.co.jp/imaging/coolpix/rengroup">  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0064761C refs=false value=NikonCorp.  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0064837E refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00649470 refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00649488 refs=false value=NIKON DIGITAL CAMERA  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006497B4 refs=false value=NIKON DSC COOLPIX P500  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006497CC refs=false value=NIKON DSC COOLPIX P500-PTP  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0064D74C refs=false value=LibRedEyeNikonS560-2-11-16-19-2  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00666CE8 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0066715C refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00667188 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00667530 refs=false value=Error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006681CC refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00668288 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006685A4 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006685FC refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x00668894 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x0066892C refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006BA7AD refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E4D80 refs=false value=Update firmware to newer  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E4EF8 refs=false value=Printer error:  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E5B60 refs=false value=warning' after a picture  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E5E40 refs=false value=Lens cover error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E6448 refs=false value=Update to new firmware?  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E6A60 refs=false value=Failed to update GPS data  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E7360 refs=false value=Error(Manual)2  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E8F34 refs=false value=Communications error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E8F68 refs=false value=Transfer error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006E9010 refs=false value=Update error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006EACB8 refs=false value=Blink warning  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006ECB38 refs=false value=Firmware version  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006ECF24 refs=false value=System error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006ED0F8 refs=false value=Lens error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006EFA7C refs=false value=Printer error: paper jam  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006EFAB8 refs=false value=Printer error: out of paper  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006EFB30 refs=false value=Printer error: out of ink  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006EFB70 refs=false value=Printer error: file corrupt  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006EFF5C refs=false value=Interface error  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006F028C refs=false value=Lens error.  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006F11D0 refs=false value=Error(Auto)2  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006F4D84 refs=false value=Display the camera firmware version.  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006F550C refs=false value=Printer error: check paper  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006F5550 refs=false value=Printer error: check ink  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> STRING 0x006F6278 refs=false value=Select "On" to display a warning after  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> ASCII_STRINGS_TOTAL=3713  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> ASCII_STRINGS_REFERENCED=0  
+2026-11-18 23:28:18 INFO  P500LimitedAnalysisScript.java> ASCII_STRINGS_MATCHED_TERMS=93  

@@ -1,0 +1,29 @@
+SUPERSEDED - DO NOT SEND. Nikon contact is inactive per current user direction; the owner reports a prior attempt without a useful response. Retained as an unsubmitted draft only.
+
+Subject: Historical firmware availability and service records - Nikon COOLPIX P510
+
+Hello Nikon Support,
+
+I am conducting historical preservation and version-verification research for my personally owned Nikon COOLPIX P510.
+
+Camera: Nikon COOLPIX P510
+Firmware shown by the camera: Version 1.0
+Official product page: https://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+
+I have not found evidence of a public P510 camera-body firmware release. The current official Download Center page has no body-firmware download. I examined 16 archived captures of the official P510 product page dated 2015-06-14 through 2023-04-07; each lists only an A-GPS Update File, not a camera-body firmware updater. Nikon's archived description identifies NML_28A.ee as A-GPS assistance data, not camera-body firmware. The archive has no capture of this product page before 2015-06-14, so I am not drawing a conclusion that Nikon never released body firmware.
+
+Could you please confirm, to the extent the information can be shared:
+
+1. Was Version 1.0 the only production camera-body firmware version for the P510?
+2. Did Nikon ever publicly publish or internally distribute a later P510 camera-body firmware version?
+3. Did a separate authorized-service firmware package, recovery image, or reflash image exist?
+4. Are any historical updater or package filenames, version identifiers, publication dates, release notes, service bulletin numbers, or service records available?
+5. Can Nikon or an authorized Nikon service center reflash or restore a P510 today, and is there an official service route for verifying or restoring its firmware?
+6. Does Nikon retain official firmware media or service documentation for this model through its archives or authorized repair channels?
+
+I mean camera-body firmware specifically, not the public consumer updater alone. I understand that internal service firmware, a recovery/reflash image, a service bulletin, the A-GPS assistance data file, desktop Nikon software, and camera-body firmware are distinct items. I am not asking for proprietary source code, encryption keys, internal credentials, or access to confidential service systems.
+
+If another Nikon department or an authorized service organization handles historical model records, please direct me to the appropriate official contact. I can provide the concise evidence summary or the dates/URLs of the archived pages if useful.
+
+Thank you,
+[Name]

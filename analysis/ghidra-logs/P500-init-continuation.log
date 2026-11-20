@@ -1,0 +1,70 @@
+2026-11-19 00:05:00 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/GitHub/Tools/Ghidra/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-19 00:05:00 INFO  (LoggingInitialization) Using log file: C:\GitHub\Nikon P510\analysis\ghidra-logs\P500-init-continuation.log  
+2026-11-19 00:05:01 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-19 00:05:01 INFO  (Preferences) Loading user preferences: C:\Users\<LOCAL_USER>\AppData\Roaming\ghidra\ghidra_12.2_PUBLIC\preferences  
+2026-11-19 00:05:01 INFO  (ClassSearcher) Searching for classes...  
+2026-11-19 00:05:02 INFO  (ClassSearcher) Class search complete (920 ms)  
+2026-11-19 00:05:02 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-19 00:05:02 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-19 00:05:02 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-19 00:05:02 INFO  (DefaultTrustManagerFactory) Loaded 75 trusted CA certificates from the OS trust store.  
+2026-11-19 00:05:02 INFO  (DefaultTrustManagerFactory) Loaded 118 trusted CA certificates from the Java default trust store.  
+2026-11-19 00:05:03 INFO  (AnalyzeHeadless) Headless startup complete (3059 ms)  
+2026-11-19 00:05:03 INFO  (ClassSearcher) Class searcher loaded 60 extension points (19 false positives)  
+2026-11-19 00:05:03 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\GitHub\Nikon P510\analysis\ghidra-temp
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Swift\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts  
+2026-11-19 00:05:03 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-19 00:05:03 INFO  (HeadlessAnalyzer) Opening existing project: C:\GitHub\Nikon P510\analysis\ghidra-projects\P500-NPROG-primary-offsets  
+2026-11-19 00:05:03 INFO  (HeadlessProject) Opening project: C:\GitHub\Nikon P510\analysis\ghidra-projects\P500-NPROG-primary-offsets  
+2026-11-19 00:05:06 DEBUG (SleighLanguage) Took 380ms (107ms inside lock) to initialize language C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\ARM\data\languages\ARM7_le.slaspec -> C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\ARM\data\languages\ARM7_le.sla  
+2026-11-19 00:05:06 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-19 00:05:07 INFO  (HeadlessAnalyzer) REPORT: Execute script: P500D3DecodeInitContinuation.java   
+2026-11-19 00:05:11 INFO  (HeadlessAnalyzer) SCRIPT: C:\GitHub\Nikon P510\analysis\ghidra-temp\P500D3DecodeInitContinuation.java  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> CLEARING_ANALYSIS_ONLY_DATA_UNITS=0x0000706C-0x000070C7  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|0000706c|str r0,[sp,#0x14]|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007070|mov r0,#0x1|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007074|bl 0x00007694|flow=UNCONDITIONAL_CALL  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007078|cpy r1,r4|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|0000707c|mov r0,#0x1|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007080|bl 0x00007948|flow=UNCONDITIONAL_CALL  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007084|ldr r0,[0x70f0]|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007088|bl 0x000003cc|flow=UNCONDITIONAL_CALL  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|0000708c|add sp,sp,#0x18|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007090|ldmia sp!,{r4,pc}|flow=TERMINATOR  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007094|str lr,[sp,#-0x4]!|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|00007098|bl 0x00000374|flow=UNCONDITIONAL_CALL  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|0000709c|bl 0x00000378|flow=UNCONDITIONAL_CALL  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070a0|bl 0x0000037c|flow=UNCONDITIONAL_CALL  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070a4|ldr lr,[sp],#0x4|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070a8|b 0x000003e0|flow=UNCONDITIONAL_JUMP  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070ac|cmp r2,#0x0|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070b0|ldrsbgt r3,[r0],#0x1|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070b4|subgt r2,r2,#0x1|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070b8|strbgt r3,[r1],#0x1|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070bc|cmpgt r2,#0x0|flow=FALL_THROUGH  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070c0|bgt 0x000070b0|flow=CONDITIONAL_JUMP  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> INSTRUCTION|000070c4|bx lr|flow=TERMINATOR  
+2026-11-19 00:05:11 INFO  (GhidraScript) P500D3DecodeInitContinuation.java> DECODED_INSTRUCTIONS=23  
+2026-11-19 00:05:12 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /ARM-Validation/P500-NPROG-primary.bin  

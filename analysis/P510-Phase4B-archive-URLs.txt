@@ -1,0 +1,103 @@
+Phase 4B exact original and archived URLs
+Research date: 2026-11-20
+
+# Current official Nikon product page
+https://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+
+# Exact original URL variants recorded by the Wayback CDX index
+http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+http://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+https://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+
+# Official Nikon A-GPS detail page; current URL returned HTTP 404
+https://downloadcenter.nikonimglib.com/en/download/fw/111.html
+http://downloadcenter.nikonimglib.com:80/en/download/fw/111.html
+
+# Official Nikon Reference Manual redirect from the product page; not followed
+https://crossgate.nikonimglib.com/dsd_redirect/redirect.do?P=EJM1d73&R=OEPHj58&L=MSovi01&O=t9BfK00
+
+# Exact Nikon A-GPS download redirect shown on archived detail pages; not followed to the data file
+http://crossgate.nikonimglib.com:80/dsd_redirect/redirect.do?P=F9JnZ07&R=SLOnf25&L=uTmf400&O=CVMiG00
+
+# Other archived A-GPS link (for S800c/AW110/S9500 only, not followed)
+https://web.archive.org/web/20150112100210/http://nikonimglib.com/agps3/
+
+# Nikon desktop-software pages linked from current/archived P510 product pages; not followed
+https://downloadcenter.nikonimglib.com/en/download/sw/3.html
+https://downloadcenter.nikonimglib.com/en/download/sw/9.html
+https://downloadcenter.nikonimglib.com/en/download/sw/20.html
+https://downloadcenter.nikonimglib.com/en/download/sw/31.html
+https://downloadcenter.nikonimglib.com/en/download/sw/35.html
+https://downloadcenter.nikonimglib.com/en/download/sw/58.html
+https://downloadcenter.nikonimglib.com/en/download/sw/60.html
+https://downloadcenter.nikonimglib.com/en/download/sw/61.html
+https://downloadcenter.nikonimglib.com/en/download/sw/81.html
+https://downloadcenter.nikonimglib.com/en/download/sw/82.html
+https://downloadcenter.nikonimglib.com/en/download/sw/84.html
+https://downloadcenter.nikonimglib.com/en/download/sw/89.html
+https://downloadcenter.nikonimglib.com/en/download/sw/94.html
+https://downloadcenter.nikonimglib.com/en/download/sw/95.html
+https://downloadcenter.nikonimglib.com/en/download/sw/96.html
+https://downloadcenter.nikonimglib.com/en/download/sw/100.html
+https://downloadcenter.nikonimglib.com/en/download/sw/101.html
+https://downloadcenter.nikonimglib.com/en/download/sw/102.html
+https://downloadcenter.nikonimglib.com/en/download/sw/103.html
+https://downloadcenter.nikonimglib.com/en/download/sw/107.html
+https://downloadcenter.nikonimglib.com/en/download/sw/108.html
+https://downloadcenter.nikonimglib.com/en/download/sw/110.html
+https://downloadcenter.nikonimglib.com/en/download/sw/111.html
+https://downloadcenter.nikonimglib.com/en/download/sw/112.html
+https://downloadcenter.nikonimglib.com/en/download/sw/113.html
+https://downloadcenter.nikonimglib.com/en/download/sw/114.html
+https://downloadcenter.nikonimglib.com/en/download/sw/192.html
+https://downloadcenter.nikonimglib.com/en/download/sw/193.html
+https://downloadcenter.nikonimglib.com/en/download/sw/194.html
+https://downloadcenter.nikonimglib.com/en/download/sw/218.html
+https://downloadcenter.nikonimglib.com/en/download/sw/228.html
+https://downloadcenter.nikonimglib.com/en/download/sw/234.html
+https://downloadcenter.nikonimglib.com/en/download/sw/279.html
+
+# Wayback CDX query for exact P510 product page
+https://web.archive.org/cdx/search/cdx?url=downloadcenter.nikonimglib.com%2Fen%2Fproducts%2F55%2FCOOLPIX_P510.html&output=json&filter=statuscode%3A200&filter=mimetype%3Atext%2Fhtml&collapse=digest
+
+# Archived P510 product-page captures; all 16 examined and each lists A-GPS Update File only
+https://web.archive.org/web/20150614020501/http://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20150914071300/http://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20160318115144/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20160421055017/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20161203155051/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20170509152635/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20170618212217/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20170715234903/http://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20170917235232/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20171019220005/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20180129055538/http://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20180302200325/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20180405022256/http://downloadcenter.nikonimglib.com:80/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20220519061138/https://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20221129184514/https://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+https://web.archive.org/web/20230407222453/https://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+
+# Wayback CDX query and selected archived captures for A-GPS detail page
+https://web.archive.org/cdx/search/cdx?url=downloadcenter.nikonimglib.com%2Fen%2Fdownload%2Ffw%2F111.html&output=json&filter=statuscode%3A200&collapse=digest
+https://web.archive.org/web/20150112100210/http://downloadcenter.nikonimglib.com/en/download/fw/111.html
+https://web.archive.org/web/20160318123615/http://downloadcenter.nikonimglib.com/en/download/fw/111.html
+https://web.archive.org/web/20260310225550/https://downloadcenter.nikonimglib.com/en/download/fw/111.html
+
+# Wayback CDX record for the A-GPS redirect (HTTP 302, 2012-06-05); target not retrieved
+https://web.archive.org/cdx/search/cdx?url=crossgate.nikonimglib.com%2Fdsd_redirect%2Fredirect.do%3FP%3DF9JnZ07%26R%3DSLOnf25%26L%3DuTmf400%26O%3DCVMiG00&output=json&collapse=digest
+https://web.archive.org/web/20120605230049/http://crossgate.nikonimglib.com:80/dsd_redirect/redirect.do?P=F9JnZ07&R=SLOnf25&L=uTmf400&O=CVMiG00
+
+# Other Nikon-associated Wayback CDX queries; empty result or failure does not prove absence
+https://web.archive.org/cdx/search/cdx?url=nikonimglib.com%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=nikonusa.com%2F*%2Fp510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=www.nikonusa.com%2F*coolpix-p510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=support.nikonusa.com%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=nikon.ca%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=support.nikon.ca%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=nikonproductsupport.com%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=nikonasia-en.custhelp.com%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=nikon-europe.com%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=imaging.nikon.com%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=nikon.com%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey
+https://web.archive.org/cdx/search/cdx?url=nikon-cdn.com%2F*P510*&output=json&filter=statuscode%3A200&collapse=urlkey

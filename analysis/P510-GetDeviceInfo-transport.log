@@ -1,0 +1,125 @@
+Phase 3C-5B one-shot transport attempt
+usbipd-win package: dorssel.usbipd-win 5.3.0 (runtime 5.3.0-54+Branch.master.Sha.aa3db8b82c4cb5071fd31bc54211606c70886912.aa3db8b82c4cb5071fd31bc54211606c70886912)
+Installation method: winget install --id dorssel.usbipd-win --exact --source winget --accept-source-agreements --accept-package-agreements --silent
+Windows restart requested: No
+Windows camera before attach: P510; USB\VID_04B0&PID_0223\31100075; 04B0:0223
+usbipd bus ID: 4-1
+WSL device before execution: 04b0:0223 at /sys/bus/usb/devices/1-1, product NIKON DSC COOLPIX P510-PTP
+Interface: 1.0; class 06; subclass 01; protocol 01
+Endpoints: 0x01 bulk OUT (attributes 02, max packet 0200); 0x81 bulk IN (attributes 02, max packet 0200); 0x82 interrupt IN (attributes 03, max packet 0008)
+Execution command: wsl.exe --distribution Ubuntu-24.04 --user <LOCAL_USER> --cd '/mnt/c/GitHub/Nikon P510/analysis' --exec '../build/P510PTPGetDeviceInfo-hardware'
+Client exit code: 2
+PTP operations transmitted: 0
+PTP session opened: No
+Outgoing PTP command: None; client exited before USBDeviceSelected and before execute_get_device_info
+Preflight reference command (not transmitted): 0C 00 00 00 01 00 01 10 01 00 00 00
+Retry: No
+Response/raw payload/decoded DeviceInfo: None
+
+--- Complete stdout capture ---
+
+--- Complete stderr capture ---
+Refusing: expected exactly one 04B0:0223 Still Image/PTP interface
+
+
+Cleanup:
+usbipd detach --busid 4-1 completed successfully.
+usbipd state after detach: Shared, not Attached.
+WSL sysfs matches for 04b0:0223 after detach: 0.
+Windows PnP after detach: P510, Status OK, Class WPD, Service WUDFWpdMtp, INF wpdmtp.inf.
+
+======================================================================
+Resumed Phase 3C-5B controlled execution — 2026-11-20
+
+Authoritative source SHA-256:
+31A76A18943D416B24E0DF746DCF9E3E1ACFECC948D76B06E2A3C1A073FF11BE
+Authoritative hardware executable SHA-256:
+4CDAA7F497010A131419420C42D2A980100D21BBB69914482746C619172E6CAA
+
+usbipd-win runtime: 5.3.0-54+Branch.master.Sha.aa3db8b82c4cb5071fd31bc54211606c70886912.aa3db8b82c4cb5071fd31bc54211606c70886912
+Initial state: BUSID 4-1; 04b0:0223 P510; Shared
+Attach command: & 'C:\Program Files\usbipd-win\usbipd.exe' attach --wsl --busid 4-1
+Attach stdout: [empty]
+Attach stderr:
+usbipd: info: Using WSL distribution 'Ubuntu-24.04' to attach; the device will be available in all WSL 2 distributions.
+usbipd: info: Loading vhci_hcd module.
+usbipd: info: Detected networking mode 'nat'.
+usbipd: info: Using IP address 172.19.48.1 to reach the host.
+Attach exit code: 0
+
+The first immediate sysfs probe found no target. A passive recheck about two seconds later found exactly one:
+WSL device: 04b0:0223 at /sys/bus/usb/devices/1-1
+Device node: /dev/bus/usb/001/002
+Device node owner/group/mode: root:plugdev 0660
+Execution user: <LOCAL_USER> (member of plugdev)
+Interface: 0, alternate 0, class/subclass/protocol 06/01/01
+Endpoint 0x01: Bulk OUT, attributes 0x02, max packet 0x0200
+Endpoint 0x81: Bulk IN, attributes 0x02, max packet 0x0200
+Endpoint 0x82: Interrupt IN, attributes 0x03, max packet 0x0008, interval 0x10
+PTP client standalone passive-open tests this phase: none
+
+Exact execution command, invoked once:
+wsl.exe --distribution Ubuntu-24.04 --user <LOCAL_USER> --cd '/mnt/c/GitHub/Nikon P510/analysis' --exec '../build/P510PTPGetDeviceInfo-hardware'
+Client exit code: 0
+
+PTP operations transmitted: 1
+GetDeviceInfo 0x1001 transmitted: Yes
+PTP session opened: No
+Retries: 0
+OpenSession 0x1002 transmitted: No
+Vendor-specific operations transmitted: No
+Outgoing container length: 12
+Outgoing container type: 0x0001
+Outgoing operation: 0x1001
+Outgoing transaction ID: 1
+Session ID: 0
+Outgoing bytes: 0C 00 00 00 01 00 01 10 01 00 00 00
+
+Received containers:
+1. Length=305 Type=0x0002 Code=0x1001 TransactionID=1 (DeviceInfo data)
+2. Length=12 Type=0x0003 Code=0x2001 TransactionID=1 (PTP_OK)
+PTP response: 0x2001 OK
+Raw DeviceInfo payload: 293 bytes
+Raw payload SHA-256: E867C4FEE60CE314FC6DFF9D9A3300FA950136A279484DB13EADFE2E7C17EF96
+Decoded file SHA-256: 599FECA3CAA14F4BB4369CEE88791FE8ABCAC28FFDD979E3A1FCF49D332622FB
+
+--- Complete client stdout ---
+USBDeviceSelected=04B0:0223
+InterfaceSelected=0
+BulkIN=0x81
+BulkOUT=0x01
+InterruptEndpoint=0x82
+OperationCount=1
+OutgoingContainerLength=12
+OutgoingContainerType=0x0001
+OutgoingOperation=0x1001
+OutgoingTransactionID=1
+SessionID=0
+OutgoingBytes=0C 00 00 00 01 00 01 10 01 00 00 00
+ReceivedContainerLength=305 Type=0x0002 Code=0x1001 TransactionID=1
+ReceivedContainerLength=12 Type=0x0003 Code=0x2001 TransactionID=1
+PTPResponse=0x2001 OK
+StandardVersion=0x0064
+VendorExtensionID=0x00000006
+VendorExtensionVersion=0x0064
+VendorExtensionDesc=microsoft.com: 1.0; Nikon PTP Extensions
+FunctionalMode=0x0000
+OperationsSupported: 0x1001(GetDeviceInfo) 0x1002(STANDARD-PTP CODE NOT TRANSMITTED) 0x1003(STANDARD-PTP CODE NOT TRANSMITTED) 0x1004(STANDARD-PTP CODE NOT TRANSMITTED) 0x1005(STANDARD-PTP CODE NOT TRANSMITTED) 0x1006(STANDARD-PTP CODE NOT TRANSMITTED) 0x1007(STANDARD-PTP CODE NOT TRANSMITTED) 0x1008(STANDARD-PTP CODE NOT TRANSMITTED) 0x1009(STANDARD-PTP CODE NOT TRANSMITTED) 0x100A(STANDARD-PTP CODE NOT TRANSMITTED) 0x100C(STANDARD-PTP CODE NOT TRANSMITTED) 0x100D(STANDARD-PTP CODE NOT TRANSMITTED) 0x101B(STANDARD-PTP CODE NOT TRANSMITTED) 0x100B(STANDARD-PTP CODE NOT TRANSMITTED) 0x100F(STANDARD-PTP CODE NOT TRANSMITTED) 0x1023(STANDARD-PTP CODE NOT TRANSMITTED) 0x1014(STANDARD-PTP CODE NOT TRANSMITTED) 0x1015(STANDARD-PTP CODE NOT TRANSMITTED) 0x1016(STANDARD-PTP CODE NOT TRANSMITTED) 0x9801(MTP/VENDOR-SPECIFIC) 0x9802(MTP/VENDOR-SPECIFIC) 0x9803(MTP/VENDOR-SPECIFIC) 0x9805(MTP/VENDOR-SPECIFIC) 0x90A1(VENDOR-SPECIFIC UNKNOWN) 0x90A2(VENDOR-SPECIFIC UNKNOWN) 0x90A3(VENDOR-SPECIFIC UNKNOWN)
+EventsSupported: 0x4001(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x4002(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x4003(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x4004(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x4005(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x4006(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x4007(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x4008(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x4009(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x400A(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x400C(UNKNOWN-OR-STANDARD-NEEDS-MAPPING)
+DevicePropertiesSupported: 0x5001(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0x5011(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0xD280(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0xD303(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0xD406(UNKNOWN-OR-STANDARD-NEEDS-MAPPING) 0xD407(UNKNOWN-OR-STANDARD-NEEDS-MAPPING)
+CaptureFormats:
+ImageFormats: 0x3801 0x3001 0x3006 0x3008 0x300D 0xB111 0x3000
+Manufacturer=Nikon Corporation
+Model=P510
+DeviceVersion=V1.00
+SerialNumber=<REDACTED>
+--- End client stdout ---
+
+Client stderr: [empty]
+No retry or second client invocation occurred.
+
+Cleanup:
+usbipd detach --busid 4-1 exit code: 0; stdout/stderr empty.
+WSL 04b0:0223 sysfs devices after detach: 0.
+Windows PnP after detach: P510, Status OK, Class WPD, Service WUDFWpdMtp.
+No further PTP command is authorized.

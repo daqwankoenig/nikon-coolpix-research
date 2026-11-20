@@ -1,0 +1,288 @@
+2026-11-18 23:26:06 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/GitHub/Tools/Ghidra/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-18 23:26:06 INFO  (LoggingInitialization) Using log file: C:\GitHub\Nikon P510\analysis\ghidra-logs\P500-limited-analysis.log  
+2026-11-18 23:26:07 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-18 23:26:07 INFO  (Preferences) Loading user preferences: C:\Users\<LOCAL_USER>\AppData\Roaming\ghidra\ghidra_12.2_PUBLIC\preferences  
+2026-11-18 23:26:07 INFO  (ClassSearcher) Searching for classes...  
+2026-11-18 23:26:07 INFO  (ClassSearcher) Class search complete (798 ms)  
+2026-11-18 23:26:08 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-18 23:26:08 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-18 23:26:08 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-18 23:26:08 INFO  (DefaultTrustManagerFactory) Loaded 75 trusted CA certificates from the OS trust store.  
+2026-11-18 23:26:08 INFO  (DefaultTrustManagerFactory) Loaded 118 trusted CA certificates from the Java default trust store.  
+2026-11-18 23:26:08 INFO  (AnalyzeHeadless) Headless startup complete (2947 ms)  
+2026-11-18 23:26:08 INFO  (ClassSearcher) Class searcher loaded 60 extension points (19 false positives)  
+2026-11-18 23:26:09 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\GitHub\Nikon P510\analysis\ghidra-temp
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Swift\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts  
+2026-11-18 23:26:09 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-18 23:26:09 INFO  (HeadlessAnalyzer) Opening existing project: C:\GitHub\Nikon P510\analysis\ghidra-projects\P500-NPROG-primary-offsets  
+2026-11-18 23:26:09 INFO  (HeadlessProject) Opening project: C:\GitHub\Nikon P510\analysis\ghidra-projects\P500-NPROG-primary-offsets  
+2026-11-18 23:26:12 DEBUG (SleighLanguage) Took 463ms (135ms inside lock) to initialize language C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\ARM\data\languages\ARM7_le.slaspec -> C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\ARM\data\languages\ARM7_le.sla  
+2026-11-18 23:26:12 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:26:13 INFO  (HeadlessAnalyzer) REPORT: Execute script: P500DisableAnalyzers.java   
+2026-11-18 23:26:13 INFO  (HeadlessAnalyzer) SCRIPT: C:\GitHub\Nikon P510\analysis\ghidra-temp\P500DisableAnalyzers.java  
+2026-11-18 23:26:13 INFO  (GhidraScript) P500DisableAnalyzers.java> PRE_ANALYSIS_DISABLED_ANALYZERS=30  
+2026-11-18 23:26:13 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:26:13 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:26:13 INFO  (HeadlessAnalyzer) REPORT: Execute script: P500LimitedAnalysisScript.java   
+2026-11-18 23:26:13 INFO  (HeadlessAnalyzer) SCRIPT: C:\GitHub\Nikon P510\analysis\ghidra-temp\P500LimitedAnalysisScript.java  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000000FC COUNT=8  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000002A8 COUNT=7  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x00074028 COUNT=8  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> IMAGE_BASE_REMAINS=00000000  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_BEFORE=0  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> SELECTED_CODE_AND_DATA_BYTES=2236  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=ASCII Strings  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=STRINGS_ONLY_FULL_IMAGE ADDRESS_COUNT=7471104  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_END=STRINGS_ONLY_FULL_IMAGE TASK_TIMES=-----------------------------------------------------
+-----------------------------------------------------
+     Total Time   0 secs
+-----------------------------------------------------
+  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=Scalar Operand References, Function Start Search, Data Reference, ARM Constant Reference Analyzer, Reference, Subroutine References, Function Start Search After Code, Stack  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=LIMITED_CODE_REGIONS ADDRESS_COUNT=2236  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_END=LIMITED_CODE_REGIONS TASK_TIMES=-----------------------------------------------------
+    ASCII Strings                              0.359 secs
+-----------------------------------------------------
+     Total Time   0 secs
+-----------------------------------------------------
+  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_TOTAL=0  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_IN_SELECTED_REGIONS=0  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> INSTRUCTIONS_IN_SELECTED_REGIONS=209  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> INSTRUCTION_BYTES_IN_SELECTED_REGIONS=836  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> APPROX_IMAGE_CODE_COVERAGE_PERCENT=0.0112  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGES_FROM_SELECTED_FUNCTIONS=0  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_TOTAL=0  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_REFERENCED=0  
+2026-11-18 23:26:14 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_MATCHED_TERMS=0  
+2026-11-18 23:26:14 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:26:14 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:26:14 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:28:05 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/GitHub/Tools/Ghidra/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-18 23:28:05 INFO  (LoggingInitialization) Using log file: C:\GitHub\Nikon P510\analysis\ghidra-logs\P500-limited-analysis.log  
+2026-11-18 23:28:05 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-18 23:28:05 INFO  (Preferences) Loading user preferences: C:\Users\<LOCAL_USER>\AppData\Roaming\ghidra\ghidra_12.2_PUBLIC\preferences  
+2026-11-18 23:28:05 INFO  (ClassSearcher) Searching for classes...  
+2026-11-18 23:28:06 INFO  (ClassSearcher) Class search complete (786 ms)  
+2026-11-18 23:28:06 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-18 23:28:06 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-18 23:28:06 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-18 23:28:06 INFO  (DefaultTrustManagerFactory) Loaded 75 trusted CA certificates from the OS trust store.  
+2026-11-18 23:28:06 INFO  (DefaultTrustManagerFactory) Loaded 118 trusted CA certificates from the Java default trust store.  
+2026-11-18 23:28:07 INFO  (AnalyzeHeadless) Headless startup complete (3447 ms)  
+2026-11-18 23:28:07 INFO  (ClassSearcher) Class searcher loaded 60 extension points (19 false positives)  
+2026-11-18 23:28:07 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\GitHub\Nikon P510\analysis\ghidra-temp
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Swift\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts  
+2026-11-18 23:28:07 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-18 23:28:07 INFO  (HeadlessAnalyzer) Opening existing project: C:\GitHub\Nikon P510\analysis\ghidra-projects\P500-NPROG-primary-offsets  
+2026-11-18 23:28:07 INFO  (HeadlessProject) Opening project: C:\GitHub\Nikon P510\analysis\ghidra-projects\P500-NPROG-primary-offsets  
+2026-11-18 23:28:11 DEBUG (SleighLanguage) Took 552ms (124ms inside lock) to initialize language C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\ARM\data\languages\ARM7_le.slaspec -> C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\ARM\data\languages\ARM7_le.sla  
+2026-11-18 23:28:12 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:28:12 INFO  (HeadlessAnalyzer) REPORT: Execute script: P500DisableAnalyzers.java   
+2026-11-18 23:28:16 INFO  (HeadlessAnalyzer) SCRIPT: C:\GitHub\Nikon P510\analysis\ghidra-temp\P500DisableAnalyzers.java  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500DisableAnalyzers.java> PRE_ANALYSIS_DISABLED_ANALYZERS=30  
+2026-11-18 23:28:16 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:28:16 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:28:16 INFO  (HeadlessAnalyzer) REPORT: Execute script: P500LimitedAnalysisScript.java   
+2026-11-18 23:28:16 INFO  (HeadlessAnalyzer) SCRIPT: C:\GitHub\Nikon P510\analysis\ghidra-temp\P500LimitedAnalysisScript.java  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000000FC COUNT=8  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000002A8 COUNT=7  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x00074028 COUNT=8  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500LimitedAnalysisScript.java> IMAGE_BASE_REMAINS=00000000  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_BEFORE=0  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500LimitedAnalysisScript.java> SELECTED_CODE_AND_DATA_BYTES=2236  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=ASCII Strings  
+2026-11-18 23:28:16 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=STRINGS_ONLY_FULL_IMAGE ADDRESS_COUNT=7471104  
+2026-11-18 23:28:17 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              1.022 secs
+-----------------------------------------------------
+     Total Time   1 secs
+-----------------------------------------------------
+  
+2026-11-18 23:28:17 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_END=STRINGS_ONLY_FULL_IMAGE TASK_TIMES=-----------------------------------------------------
+    ASCII Strings                              1.022 secs
+-----------------------------------------------------
+     Total Time   1 secs
+-----------------------------------------------------
+  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=Scalar Operand References, Function Start Search, Data Reference, ARM Constant Reference Analyzer, Reference, Subroutine References, Function Start Search After Code, Stack  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=LIMITED_CODE_REGIONS ADDRESS_COUNT=2236  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_END=LIMITED_CODE_REGIONS TASK_TIMES=-----------------------------------------------------
+    ARM Constant Reference Analyzer            0.138 secs
+    Create Function                            0.033 secs
+    Data Reference                             0.012 secs
+    Disassemble                                0.081 secs
+    Function Start Search                      0.101 secs
+    Function Start Search After Code           0.012 secs
+    Function Start Search delayed - One Time   0.000 secs
+    Reference                                  0.013 secs
+    Scalar Operand References                  0.014 secs
+    Stack                                      0.142 secs
+    Subroutine References                      0.029 secs
+-----------------------------------------------------
+     Total Time   0 secs
+-----------------------------------------------------
+  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_TOTAL=44  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_IN_SELECTED_REGIONS=18  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> INSTRUCTIONS_IN_SELECTED_REGIONS=332  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> INSTRUCTION_BYTES_IN_SELECTED_REGIONS=1328  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> APPROX_IMAGE_CODE_COVERAGE_PERCENT=0.0178  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 000003f0 -> 00006aec  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 000002c4  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 000086e4  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00009a58  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 000002dc  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00009f80  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 0000a68c  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00008c58  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 000090a4  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 0000b794  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00008754  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 0000a704  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 0000ab0c  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGE 0000700c -> 00000318  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGES_FROM_SELECTED_FUNCTIONS=14  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00281BE4 refs=false value=NIKON DIGITAL CAMERA  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0029BA5C refs=false value=NIKON CO.,LTD.  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x002A5170 refs=false value=NIKON DIGITAL CAMERA  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00521984 refs=false value=Opticalflow protect return error!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x005219A8 refs=false value=Protect color format error!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x005219C4 refs=false value=Opticalflow protect image size return error!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x005219F4 refs=false value=AMCM_CreateTracker error!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00521A10 refs=false value=MMemAlloc pTrackPixel error!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00521E74 refs=false value=AMCM_GlobalMatching error!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x005CFF98 refs=false value=nec_nc error --- short block   
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x005CFFC0 refs=false value=No error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00602A00 refs=false value=Slave not boot  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00602CD8 refs=false value=lens_mtr_drv_master_task_start  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00602DC0 refs=false value=External DDR buffer address error!!!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00603FB0 refs=false value=[SM :ERR] _CopyValidScts : VN_Copy Error!! (Vol %d, Part %d)  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006144FC refs=false value=ERROR!! %08x  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006147AC refs=false value=ERROR!! %08x  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00619760 refs=false value=errorStatus  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0061976C refs=false value=errorReason  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0061AF24 refs=false value=NIKON DIGITAL CAMERA  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0061F53C refs=false value=CamDownloadFirmwareHandle  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0061FC10 refs=false value=NIKON CO.,LTD.  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006202F8 refs=false value=FIRMWAREBIN  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620324 refs=false value=FIRMWAREBIN  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620330 refs=false value=FIRMWARE     
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620A0E refs=false value=ERROR CS AND LS  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620A1E refs=false value=ERROR CS AND FS  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620A2E refs=false value=ERROR LS AND FS  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620A3E refs=false value=ERROR CS LS FS  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620A4E refs=false value=ERROR CS  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620A5A refs=false value=ERROR LS  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620A66 refs=false value=ERROR FS  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620AF8 refs=false value=NIKON DIGITAL CAMERA                               
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620C90 refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00620CB0 refs=false value=FIRMWARE.BIN  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00623528 refs=false value=error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00623544 refs=false value=error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0062356C refs=false value=error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00623578 refs=false value=error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00623594 refs=false value=error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00623AEC refs=false value=System error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006461E0 refs=false value=COOLPIX P500V1.1  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0064668C refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00646CB0 refs=false value=Nikon Corporation  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00646DE0 refs=false value=xmlns:nc ="http://www.nikon.co.jp/imaging/coolpix/favorite">  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00646E20 refs=false value=xmlns:nc ="http://www.nikon.co.jp/imaging/coolpix/Transfer">  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00646E78 refs=false value=NikonCorp.  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00647200 refs=false value=Nikon Corporation  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00647423 refs=false value=FIRMWARE  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006475C4 refs=false value=xmlns:nc ="http://www.nikon.co.jp/imaging/coolpix/rengroup">  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0064761C refs=false value=NikonCorp.  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0064837E refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00649470 refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00649488 refs=false value=NIKON DIGITAL CAMERA  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006497B4 refs=false value=NIKON DSC COOLPIX P500  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006497CC refs=false value=NIKON DSC COOLPIX P500-PTP  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0064D74C refs=false value=LibRedEyeNikonS560-2-11-16-19-2  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00666CE8 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0066715C refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00667188 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00667530 refs=false value=Error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006681CC refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00668288 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006685A4 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006685FC refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x00668894 refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x0066892C refs=false value=LENS INIT ERROR!  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006BA7AD refs=false value=COOLPIX P500  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E4D80 refs=false value=Update firmware to newer  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E4EF8 refs=false value=Printer error:  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E5B60 refs=false value=warning' after a picture  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E5E40 refs=false value=Lens cover error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E6448 refs=false value=Update to new firmware?  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E6A60 refs=false value=Failed to update GPS data  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E7360 refs=false value=Error(Manual)2  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E8F34 refs=false value=Communications error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E8F68 refs=false value=Transfer error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006E9010 refs=false value=Update error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006EACB8 refs=false value=Blink warning  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006ECB38 refs=false value=Firmware version  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006ECF24 refs=false value=System error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006ED0F8 refs=false value=Lens error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006EFA7C refs=false value=Printer error: paper jam  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006EFAB8 refs=false value=Printer error: out of paper  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006EFB30 refs=false value=Printer error: out of ink  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006EFB70 refs=false value=Printer error: file corrupt  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006EFF5C refs=false value=Interface error  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006F028C refs=false value=Lens error.  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006F11D0 refs=false value=Error(Auto)2  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006F4D84 refs=false value=Display the camera firmware version.  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006F550C refs=false value=Printer error: check paper  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006F5550 refs=false value=Printer error: check ink  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> STRING 0x006F6278 refs=false value=Select "On" to display a warning after  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_TOTAL=3713  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_REFERENCED=0  
+2026-11-18 23:28:18 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_MATCHED_TERMS=93  
+2026-11-18 23:28:18 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:28:18 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:28:18 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /ARM-Validation/P500-NPROG-primary.bin  

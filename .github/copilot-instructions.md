@@ -1,0 +1,31 @@
+# Nikon COOLPIX P510 Firmware Research Rules
+
+- This project is exclusively for research of firmware from my personally owned Nikon COOLPIX P510.
+- `firmware/original/P510` must remain empty until actual P510 firmware is obtained or dumped.
+- Never modify anything in `firmware/original`.
+- Never overwrite an original firmware image.
+- Calculate and record SHA-256 before working with firmware.
+- Extracted firmware belongs in `firmware/extracted`.
+- Experimental modifications belong in `firmware/modified`.
+- P500 and P520 firmware in `firmware/reference/P500` and `firmware/reference/P520` are reference samples only.
+- Never flash P500 or P520 firmware to the P510.
+- Never assume binary compatibility between the P500, P510, and P520.
+- Never copy a P500 or P520 binary into the P510 original or modified directories.
+- Reference firmware may be analyzed to understand Nikon firmware packaging, headers, compression, filesystem structure, architecture, checksums, naming conventions, and update mechanisms.
+- Label all conclusions about the P510 based on neighboring models as hypotheses until confirmed from P510 hardware or actual P510 firmware.
+- Analysis notes belong in `analysis`.
+- Scripts created for this project belong in `scripts`.
+- Third-party research utilities belong in `tools`.
+- Backups belong in `backups`.
+- Checksums and integrity records belong in `checksums`.
+- Clearly distinguish confirmed findings, assumptions, and unknowns.
+- Do not assume a tool supports the Nikon COOLPIX P510 simply because it supports another Nikon camera.
+- Do not flash firmware to the camera unless I explicitly approve that step.
+- Do not communicate with the camera over USB unless I explicitly approve it.
+- Do not bypass cryptographic signatures, secure boot, access controls, or anti-tamper protections.
+- Before modifying any firmware binary, create a verified backup.
+- Never perform destructive operations on the original firmware.
+- Ask for approval before installing software, cloning repositories, downloading tools, or executing unfamiliar third-party code.
+- When executing a command that could modify firmware or interact with hardware, explain the command and affected files first.
+- Prefer read-only static analysis before any modification.
+- Do not create files outside `C:\GitHub\Nikon P510`.

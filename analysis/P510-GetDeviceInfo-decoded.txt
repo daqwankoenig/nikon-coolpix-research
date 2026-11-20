@@ -1,0 +1,58 @@
+P510 DeviceInfo decoded from the response to GetDeviceInfo (0x1001)
+Data container code: 0x1001
+Transaction ID: 1
+DeviceInfo payload length: 293 bytes
+
+StandardVersion=0x0064
+VendorExtensionID=0x00000006
+VendorExtensionVersion=0x0064
+VendorExtensionDesc=microsoft.com: 1.0; Nikon PTP Extensions
+FunctionalMode=0x0000
+
+OperationsSupported raw values, in device-reported order:
+STANDARD PTP OPERATIONS
+0x1001 GetDeviceInfo (the sole operation transmitted in this phase)
+0x1002 OpenSession (advertised only; NOT transmitted)
+0x1003 UNKNOWN (advertised only; NOT transmitted)
+0x1004 UNKNOWN (advertised only; NOT transmitted)
+0x1005 UNKNOWN (advertised only; NOT transmitted)
+0x1006 UNKNOWN (advertised only; NOT transmitted)
+0x1007 UNKNOWN (advertised only; NOT transmitted)
+0x1008 UNKNOWN (advertised only; NOT transmitted)
+0x1009 UNKNOWN (advertised only; NOT transmitted)
+0x100A UNKNOWN (advertised only; NOT transmitted)
+0x100C UNKNOWN (advertised only; NOT transmitted)
+0x100D UNKNOWN (advertised only; NOT transmitted)
+0x101B UNKNOWN (advertised only; NOT transmitted)
+0x100B UNKNOWN (advertised only; NOT transmitted)
+0x100F UNKNOWN (advertised only; NOT transmitted)
+0x1023 UNKNOWN (advertised only; NOT transmitted)
+0x1014 UNKNOWN (advertised only; NOT transmitted)
+0x1015 UNKNOWN (advertised only; NOT transmitted)
+0x1016 UNKNOWN (advertised only; NOT transmitted)
+
+VENDOR-SPECIFIC OPERATIONS
+0x9801 UNKNOWN MTP/vendor-specific code (advertised only; NOT transmitted)
+0x9802 UNKNOWN MTP/vendor-specific code (advertised only; NOT transmitted)
+0x9803 UNKNOWN MTP/vendor-specific code (advertised only; NOT transmitted)
+0x9805 UNKNOWN MTP/vendor-specific code (advertised only; NOT transmitted)
+0x90A1 UNKNOWN vendor-specific code (advertised only; NOT transmitted)
+0x90A2 UNKNOWN vendor-specific code (advertised only; NOT transmitted)
+0x90A3 UNKNOWN vendor-specific code (advertised only; NOT transmitted)
+
+EventsSupported raw values, in device-reported order (unmapped; UNKNOWN):
+0x4001 0x4002 0x4003 0x4004 0x4005 0x4006 0x4007 0x4008 0x4009 0x400A 0x400C
+
+DevicePropertiesSupported raw values, in device-reported order (unmapped; UNKNOWN):
+0x5001 0x5011 0xD280 0xD303 0xD406 0xD407
+
+CaptureFormats: (empty)
+ImageFormats raw values, in device-reported order:
+0x3801 0x3001 0x3006 0x3008 0x300D 0xB111 0x3000
+
+Manufacturer=Nikon Corporation
+Model=P510
+DeviceVersion=V1.00
+SerialNumber=<REDACTED; present in the raw payload>
+
+No advertised operation other than the single GetDeviceInfo was invoked.

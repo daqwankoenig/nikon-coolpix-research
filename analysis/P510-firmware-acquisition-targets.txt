@@ -1,0 +1,58 @@
+Phase 4A search targets; candidate patterns are not evidence that a P510 package exists.
+
+Confirmed Nikon product URL
+https://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+/en/products/55/COOLPIX_P510.html
+Nikon Download Center product ID 55
+
+Confirmed P510 model and device identifiers
+P510
+COOLPIX P510
+COOLPIX_P510
+Nikon Coolpix P510
+NIKON DSC COOLPIX P510-PTP
+04B0
+0223
+04B0:0223
+VID_04B0&PID_0223
+0x04b00223
+04b00223
+
+Confirmed P510 version strings
+Firmware Version 1.0
+V1.00
+
+Broad local-media search terms
+firmware
+update
+firm
+bin
+dat
+firmware.bin
+
+Unverified P510 updater filename/path patterns only
+F-P510
+P510Update
+P510Update\firmware\firmware.bin
+
+P510 local media/documentation identifiers
+Nikon Coolpix P510.iso
+P510_EN.pdf
+P510RM_EU(En)01.pdf
+ViewNX 2 Installer CD
+ViewNX 2
+Update failed
+A-GPS update
+
+Nikon desktop-software reference; not a camera firmware updater
+S-NXSTDO-011100WF-ALLIN-ALL___.exe
+NX Studio 1.11.0.30000
+
+P500/P520 updater-family comparison terms; reference only
+F-P500-V11W.exe
+P500Update\firmware\firmware.bin
+LENGTH=7471104 SG583 VER=v583-80 DVR=1.10 SUM=765951917 NPROG NDATA NLIPI SFIRM
+F-P520-V11W.exe
+P520Update\firmware\firmware.bin
+Ver.1.1
+P5100

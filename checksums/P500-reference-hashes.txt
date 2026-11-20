@@ -1,0 +1,9 @@
+P500 reference package hashes
+Scope: complete file, read-only hashing. MD5 is included for identification/comparison only, not security.
+
+CONFIRMED | Exact filename: F-P500-V11W.exe
+CONFIRMED | Relative path: firmware\reference\P500\F-P500-V11W.exe
+CONFIRMED | File size: 4,892,776 bytes
+CONFIRMED | SHA-256: CA83DDCCD4B3E4CEBAA5C72BD65959F70C1138E3E6E2A273E14DF142C31C99CD
+CONFIRMED | SHA-1: AED92F1D9D7F1C7DB7C8809B6D59B2AC5B828E0A
+CONFIRMED | MD5 (identification/comparison only): DFD458DF65A53F2D38DEA2FD9F2C8A2F

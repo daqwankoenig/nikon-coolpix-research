@@ -1,0 +1,9 @@
+P520 reference package hashes
+Scope: complete file, read-only hashing. MD5 is included for identification/comparison only, not security.
+
+CONFIRMED | Exact filename: F-P520-V11W.exe
+CONFIRMED | Relative path: firmware\reference\P520\F-P520-V11W.exe
+CONFIRMED | File size: 74,551,288 bytes
+CONFIRMED | SHA-256: CFDE64DD155C6DFA6FF6BD74AD807D7A3F615938DCA2190D72A075C8519E6DB2
+CONFIRMED | SHA-1: BC705FB5E8B385AC4B309B6CBC6BF3D716FE774E
+CONFIRMED | MD5 (identification/comparison only): C3CCFB11851216743C935984C97EE07F

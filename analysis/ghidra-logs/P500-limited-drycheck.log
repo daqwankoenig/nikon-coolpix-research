@@ -1,0 +1,78 @@
+2026-11-18 23:25:38 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/GitHub/Tools/Ghidra/ghidra_12.2_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-11-18 23:25:38 INFO  (LoggingInitialization) Using log file: C:\GitHub\Nikon P510\analysis\ghidra-logs\P500-limited-drycheck.log  
+2026-11-18 23:25:39 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-11-18 23:25:39 INFO  (Preferences) Loading user preferences: C:\Users\<LOCAL_USER>\AppData\Roaming\ghidra\ghidra_12.2_PUBLIC\preferences  
+2026-11-18 23:25:39 INFO  (ClassSearcher) Searching for classes...  
+2026-11-18 23:25:40 INFO  (ClassSearcher) Class search complete (1025 ms)  
+2026-11-18 23:25:40 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-11-18 23:25:40 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-11-18 23:25:40 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-11-18 23:25:40 INFO  (DefaultTrustManagerFactory) Loaded 75 trusted CA certificates from the OS trust store.  
+2026-11-18 23:25:41 INFO  (DefaultTrustManagerFactory) Loaded 118 trusted CA certificates from the Java default trust store.  
+2026-11-18 23:25:41 INFO  (AnalyzeHeadless) Headless startup complete (11804 ms)  
+2026-11-18 23:25:41 INFO  (ClassSearcher) Class searcher loaded 60 extension points (19 false positives)  
+2026-11-18 23:25:41 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\GitHub\Nikon P510\analysis\ghidra-temp
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\Swift\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts  
+2026-11-18 23:25:41 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-11-18 23:25:41 INFO  (HeadlessAnalyzer) Opening existing project: C:\GitHub\Nikon P510\analysis\ghidra-projects\P500-NPROG-primary-offsets  
+2026-11-18 23:25:42 INFO  (HeadlessProject) Opening project: C:\GitHub\Nikon P510\analysis\ghidra-projects\P500-NPROG-primary-offsets  
+2026-11-18 23:25:45 DEBUG (SleighLanguage) Took 571ms (216ms inside lock) to initialize language C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\ARM\data\languages\ARM7_le.slaspec -> C:\GitHub\Tools\Ghidra\ghidra_12.2_PUBLIC\Ghidra\Processors\ARM\data\languages\ARM7_le.sla  
+2026-11-18 23:25:46 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /ARM-Validation/P500-NPROG-primary.bin  
+2026-11-18 23:25:47 INFO  (HeadlessAnalyzer) REPORT: Execute script: P500DisableAnalyzers.java   
+2026-11-18 23:25:47 INFO  (HeadlessAnalyzer) SCRIPT: C:\GitHub\Nikon P510\analysis\ghidra-temp\P500DisableAnalyzers.java  
+2026-11-18 23:25:47 INFO  (GhidraScript) P500DisableAnalyzers.java> PRE_ANALYSIS_DISABLED_ANALYZERS=30  
+2026-11-18 23:25:47 INFO  (HeadlessAnalyzer) REPORT: Execute script: P500LimitedAnalysisScript.java   
+2026-11-18 23:25:48 INFO  (HeadlessAnalyzer) SCRIPT: C:\GitHub\Nikon P510\analysis\ghidra-temp\P500LimitedAnalysisScript.java  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000000FC COUNT=8  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x000002A8 COUNT=7  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> DEFINED_DWORD_TABLE=0x00074028 COUNT=8  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> IMAGE_BASE_REMAINS=00000000  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_BEFORE=0  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> SELECTED_CODE_AND_DATA_BYTES=2236  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=ASCII Strings  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=STRINGS_ONLY_FULL_IMAGE ADDRESS_COUNT=7471104  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_END=STRINGS_ONLY_FULL_IMAGE TASK_TIMES=-----------------------------------------------------
+-----------------------------------------------------
+     Total Time   0 secs
+-----------------------------------------------------
+  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ENABLED_ANALYZERS=Scalar Operand References, Function Start Search, Data Reference, ARM Constant Reference Analyzer, Reference, Subroutine References, Function Start Search After Code, Stack  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_BEGIN=LIMITED_CODE_REGIONS ADDRESS_COUNT=2236  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ANALYSIS_PHASE_END=LIMITED_CODE_REGIONS TASK_TIMES=-----------------------------------------------------
+    ASCII Strings                              0.378 secs
+-----------------------------------------------------
+     Total Time   0 secs
+-----------------------------------------------------
+  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_TOTAL=0  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> FUNCTIONS_IN_SELECTED_REGIONS=0  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> INSTRUCTIONS_IN_SELECTED_REGIONS=209  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> INSTRUCTION_BYTES_IN_SELECTED_REGIONS=836  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> APPROX_IMAGE_CODE_COVERAGE_PERCENT=0.0112  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> CALL_EDGES_FROM_SELECTED_FUNCTIONS=0  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_TOTAL=0  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_REFERENCED=0  
+2026-11-18 23:25:48 INFO  (GhidraScript) P500LimitedAnalysisScript.java> ASCII_STRINGS_MATCHED_TERMS=0  
+2026-11-18 23:25:48 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /ARM-Validation/P500-NPROG-primary.bin  

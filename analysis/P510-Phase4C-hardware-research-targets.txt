@@ -1,0 +1,100 @@
+# Phase 4C offline hardware-research targets
+# Search terms are leads, not proof that a document, component, or interface exists.
+
+# Confirmed P510 identity/version strings
+Nikon COOLPIX P510
+COOLPIX P510
+P510
+Firmware Version 1.0
+V1.00
+NIKON DSC COOLPIX P510-PTP
+USB\VID_04B0&PID_0223
+VID_04B0&PID_0223&REV_0100
+04B0:0223
+0x04b00223
+
+# Existing P510 document/media identifiers
+P510_EN.pdf
+P510RM_EU(En)01.pdf
+Nikon Coolpix P510.iso
+UC-E6
+COOLPIX_P510
+
+# P510-specific documentation searches (not found in the current project inventory)
+COOLPIX P510 service manual
+Nikon P510 repair manual
+Nikon P510 service documentation
+Nikon P510 parts catalog
+Nikon P510 schematic
+Nikon P510 boardview
+Nikon P510 PCB photograph
+Nikon P510 main board assembly number
+Nikon P510 board revision
+Nikon P510 adjustment software
+Nikon P510 factory software
+Nikon P510 diagnostic software
+Nikon P510 service bulletin
+
+# Hardware component searches; no P510 part numbers are currently known
+COOLPIX P510 main SoC
+COOLPIX P510 image processor
+COOLPIX P510 CPU
+COOLPIX P510 flash memory
+COOLPIX P510 SPI NOR
+COOLPIX P510 NAND
+COOLPIX P510 eMMC
+COOLPIX P510 EEPROM
+COOLPIX P510 DRAM
+COOLPIX P510 image sensor part number
+COOLPIX P510 HDMI controller
+COOLPIX P510 USB controller
+P510 mainboard chip markings
+P510 PCB assembly identifier
+P510 PCB revision
+
+# Interface searches; hypothetical until supported by P510-specific evidence
+COOLPIX P510 UART
+COOLPIX P510 serial console
+COOLPIX P510 JTAG
+COOLPIX P510 SWD
+COOLPIX P510 BDM
+COOLPIX P510 ICE
+COOLPIX P510 debug connector
+COOLPIX P510 service connector
+COOLPIX P510 test pads
+COOLPIX P510 boot ROM
+COOLPIX P510 bootloader
+COOLPIX P510 recovery mode
+
+# P510 protocol/version leads; do not probe these operations or properties
+0x1001 GetDeviceInfo
+0x90A1
+0x90A2
+0x90A3
+0xD280
+0xD303
+0xB111
+
+# Nikon-tool source names are not P510 support; static reference only
+NikonDump
+NikonFlags
+0xFC01
+0xFC02
+0xFE31
+0xFE34
+0xFDB2
+0xFEB1
+0xFEB2
+
+# Donor-camera evaluation terms; do not purchase automatically
+Nikon COOLPIX P510 for parts
+Nikon COOLPIX P510 lens error intact mainboard
+Nikon COOLPIX P510 broken LCD intact mainboard
+Nikon COOLPIX P510 damaged lens main PCB
+Nikon COOLPIX P510 donor intact flash memory
+
+# Neighboring models are reference-only and not P510 firmware
+Nikon COOLPIX P500 firmware
+Nikon COOLPIX P520 firmware
+P500Update\firmware\firmware.bin
+P520Update\firmware\firmware.bin

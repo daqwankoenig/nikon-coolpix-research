@@ -1,0 +1,74 @@
+=== Passive libusb selector reproduction as WSL user <LOCAL_USER> ===
+libusb_init=0
+libusb_get_device_list=3
+TARGET_MATCH_COUNT=1
+TARGET_DESCRIPTOR_RESULT=0
+BUS=1 ADDRESS=2
+DEVICE_DESCRIPTOR bLength=18 bDescriptorType=1 bcdUSB=0x0200 bDeviceClass=0x00 bDeviceSubClass=0x00 bDeviceProtocol=0x00 bMaxPacketSize0=64 idVendor=0x04B0 idProduct=0x0223 bcdDevice=0x0100 iManufacturer=1 iProduct=2 iSerialNumber=3 bNumConfigurations=2
+libusb_open_result=-3 (LIBUSB_ERROR_ACCESS)
+
+ACTIVE_CONFIGURATION_SELECTOR_RESULT=0
+ACTIVE_CONFIGURATION_VALUE=1
+SELECTOR_CANDIDATE interface=0 alternate=0 class=06 subclass=01 protocol=01 endpoints=3 bulk_in=1 bulk_out=1
+SELECTOR_MATCHED_ALTERNATES=1
+ManufacturerString index=1 value=<unavailable: device open failed>
+ProductString index=2 value=<unavailable: device open failed>
+SerialNumberString index=3 value=<unavailable: device open failed>
+
+GET_CONFIGURATION_DESCRIPTOR index=0 result=0
+  bConfigurationValue=1 bmAttributes=0x80 MaxPower=250 (500 mA) bNumInterfaces=1 iConfiguration=0
+  ConfigurationString index=0 value=<not provided>
+  INTERFACE array_index=0 num_altsetting=1
+    ALTERNATE_SETTING bInterfaceNumber=0 bAlternateSetting=0 bNumEndpoints=3 bInterfaceClass=0x06 bInterfaceSubClass=0x01 bInterfaceProtocol=0x01 iInterface=0
+      InterfaceString index=0 value=<not provided>
+      ENDPOINT bEndpointAddress=0x01 direction=OUT bmAttributes=0x02 transfer_type=Bulk wMaxPacketSize=0x0200 bInterval=0 bRefresh=0 bSynchAddress=0x00
+      ENDPOINT bEndpointAddress=0x81 direction=IN bmAttributes=0x02 transfer_type=Bulk wMaxPacketSize=0x0200 bInterval=0 bRefresh=0 bSynchAddress=0x00
+      ENDPOINT bEndpointAddress=0x82 direction=IN bmAttributes=0x03 transfer_type=Interrupt wMaxPacketSize=0x0008 bInterval=16 bRefresh=0 bSynchAddress=0x00
+
+GET_CONFIGURATION_DESCRIPTOR index=1 result=0
+  bConfigurationValue=2 bmAttributes=0xC0 MaxPower=1 (2 mA) bNumInterfaces=1 iConfiguration=0
+  ConfigurationString index=0 value=<not provided>
+  INTERFACE array_index=0 num_altsetting=1
+    ALTERNATE_SETTING bInterfaceNumber=0 bAlternateSetting=0 bNumEndpoints=3 bInterfaceClass=0x06 bInterfaceSubClass=0x01 bInterfaceProtocol=0x01 iInterface=0
+      InterfaceString index=0 value=<not provided>
+      ENDPOINT bEndpointAddress=0x01 direction=OUT bmAttributes=0x02 transfer_type=Bulk wMaxPacketSize=0x0200 bInterval=0 bRefresh=0 bSynchAddress=0x00
+      ENDPOINT bEndpointAddress=0x81 direction=IN bmAttributes=0x02 transfer_type=Bulk wMaxPacketSize=0x0200 bInterval=0 bRefresh=0 bSynchAddress=0x00
+      ENDPOINT bEndpointAddress=0x82 direction=IN bmAttributes=0x03 transfer_type=Interrupt wMaxPacketSize=0x0008 bInterval=16 bRefresh=0 bSynchAddress=0x00
+
+=== Complete passive libusb descriptor tree and string descriptors as root ===
+libusb_init=0
+libusb_get_device_list=3
+TARGET_MATCH_COUNT=1
+TARGET_DESCRIPTOR_RESULT=0
+BUS=1 ADDRESS=2
+DEVICE_DESCRIPTOR bLength=18 bDescriptorType=1 bcdUSB=0x0200 bDeviceClass=0x00 bDeviceSubClass=0x00 bDeviceProtocol=0x00 bMaxPacketSize0=64 idVendor=0x04B0 idProduct=0x0223 bcdDevice=0x0100 iManufacturer=1 iProduct=2 iSerialNumber=3 bNumConfigurations=2
+libusb_open_result=0 (SUCCESS)
+
+ACTIVE_CONFIGURATION_SELECTOR_RESULT=0
+ACTIVE_CONFIGURATION_VALUE=1
+SELECTOR_CANDIDATE interface=0 alternate=0 class=06 subclass=01 protocol=01 endpoints=3 bulk_in=1 bulk_out=1
+SELECTOR_MATCHED_ALTERNATES=1
+ManufacturerString index=1 value="NIKON"
+ProductString index=2 value="NIKON DSC COOLPIX P510-PTP"
+SerialNumberString index=3 value="31100075"
+
+GET_CONFIGURATION_DESCRIPTOR index=0 result=0
+  bLength=9 bDescriptorType=2 wTotalLength=39 bConfigurationValue=1 bmAttributes=0x80 MaxPower=250 (500 mA) bNumInterfaces=1 iConfiguration=0
+  ConfigurationString index=0 value=<not provided>
+  INTERFACE array_index=0 num_altsetting=1
+    ALTERNATE_SETTING bLength=9 bDescriptorType=4 bInterfaceNumber=0 bAlternateSetting=0 bNumEndpoints=3 bInterfaceClass=0x06 bInterfaceSubClass=0x01 bInterfaceProtocol=0x01 iInterface=0
+      InterfaceString index=0 value=<not provided>
+      ENDPOINT bLength=7 bDescriptorType=5 bEndpointAddress=0x01 direction=OUT bmAttributes=0x02 transfer_type=Bulk wMaxPacketSize=0x0200 bInterval=0 bRefresh=0 bSynchAddress=0x00
+      ENDPOINT bLength=7 bDescriptorType=5 bEndpointAddress=0x81 direction=IN bmAttributes=0x02 transfer_type=Bulk wMaxPacketSize=0x0200 bInterval=0 bRefresh=0 bSynchAddress=0x00
+      ENDPOINT bLength=7 bDescriptorType=5 bEndpointAddress=0x82 direction=IN bmAttributes=0x03 transfer_type=Interrupt wMaxPacketSize=0x0008 bInterval=16 bRefresh=0 bSynchAddress=0x00
+
+GET_CONFIGURATION_DESCRIPTOR index=1 result=0
+  bLength=9 bDescriptorType=2 wTotalLength=39 bConfigurationValue=2 bmAttributes=0xC0 MaxPower=1 (2 mA) bNumInterfaces=1 iConfiguration=0
+  ConfigurationString index=0 value=<not provided>
+  INTERFACE array_index=0 num_altsetting=1
+    ALTERNATE_SETTING bLength=9 bDescriptorType=4 bInterfaceNumber=0 bAlternateSetting=0 bNumEndpoints=3 bInterfaceClass=0x06 bInterfaceSubClass=0x01 bInterfaceProtocol=0x01 iInterface=0
+      InterfaceString index=0 value=<not provided>
+      ENDPOINT bLength=7 bDescriptorType=5 bEndpointAddress=0x01 direction=OUT bmAttributes=0x02 transfer_type=Bulk wMaxPacketSize=0x0200 bInterval=0 bRefresh=0 bSynchAddress=0x00
+      ENDPOINT bLength=7 bDescriptorType=5 bEndpointAddress=0x81 direction=IN bmAttributes=0x02 transfer_type=Bulk wMaxPacketSize=0x0200 bInterval=0 bRefresh=0 bSynchAddress=0x00
+      ENDPOINT bLength=7 bDescriptorType=5 bEndpointAddress=0x82 direction=IN bmAttributes=0x03 transfer_type=Interrupt wMaxPacketSize=0x0008 bInterval=16 bRefresh=0 bSynchAddress=0x00
+

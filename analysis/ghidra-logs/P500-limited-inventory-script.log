@@ -1,0 +1,747 @@
+2026-11-18 23:32:29 INFO  P500DisableAnalyzers.java> PRE_ANALYSIS_DISABLED_ANALYZERS=30  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> LANGUAGE=ARM:LE:32:v7  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> IMAGE_BASE=00000000  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000060|entry=0x00000060|body=0x00000060-0x000000FB|bodyBytes=156|instructions=39|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000002c4|entry=0x000002C4|body=0x000002C4-0x000002C4|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000002dc|entry=0x000002DC|body=0x000002DC-0x000002DC|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000318|entry=0x00000318|body=0x00000318-0x00000318|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000003f0 000003f4 -> 00006aec  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000003f0|entry=0x000003F0|body=0x000003F0-0x0000042F|bodyBytes=64|instructions=16|calls=1|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000520 00000540 -> 0053b34c  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000520|entry=0x00000520|body=0x00000520-0x000005C3|bodyBytes=164|instructions=41|calls=1|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000006bc 000006d8 -> 0000a43c  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000006bc 0000070c -> 000008d0  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000006bc 00000714 -> 000008f0  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000006bc 00000724 -> 00000520  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000006bc|entry=0x000006BC|body=0x000006BC-0x0000072F|bodyBytes=116|instructions=29|calls=4|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000008d0|entry=0x000008D0|body=0x000008D0-0x000008EF|bodyBytes=32|instructions=8|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000008f0|entry=0x000008F0|body=0x000008F0-0x000008F7|bodyBytes=8|instructions=2|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000009ac 000009dc -> 00006aa4  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000009ac 00000a24 -> 00006ab8  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000009ac|entry=0x000009AC|body=0x000009AC-0x00000A2F|bodyBytes=132|instructions=33|calls=2|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000a30 00000a4c -> 00006aa4  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000a30 00000a60 -> 00006ab8  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000a30|entry=0x00000A30|body=0x00000A30-0x00000A6B|bodyBytes=60|instructions=15|calls=2|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000a6c 00000a98 -> 00006aa4  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000a6c 00000adc -> 00006ab8  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000a6c|entry=0x00000A6C|body=0x00000A6C-0x00000AE7|bodyBytes=124|instructions=31|calls=2|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000c3c 00000c50 -> 00006aa4  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000c3c|entry=0x00000C3C|body=0x00000C3C-0x00000C83|bodyBytes=72|instructions=18|calls=1|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006600|entry=0x00006600|body=0x00006600-0x0000663B|bodyBytes=60|instructions=15|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 000066ec -> 00000a6c  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 000066fc -> 00000c3c  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 00006714 -> 000009ac  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 00006738 -> 00000a30  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 00006754 -> 00000a6c  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000663c|entry=0x0000663C|body=0x0000663C-0x0000676F|bodyBytes=308|instructions=77|calls=5|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006824|entry=0x00006824|body=0x00006824-0x00006843|bodyBytes=32|instructions=8|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006aa4|entry=0x00006AA4|body=0x00006AA4-0x00006AB7|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006ab8|entry=0x00006AB8|body=0x00006AB8-0x00006ACB|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006aec|entry=0x00006AEC|body=0x00006AEC-0x00006AFF|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006b00|entry=0x00006B00|body=0x00006B00-0x00006B13|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007014 -> 000002c4  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007018 -> 000086e4  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 0000701c -> 00009a58  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007020 -> 000002dc  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007024 -> 00009f80  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007028 -> 0000a68c  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 0000702c -> 00008c58  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007030 -> 000090a4  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007034 -> 0000b794  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007038 -> 00008754  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 0000703c -> 0000a704  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007040 -> 0000ab0c  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007044 -> 00000318  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000700c|entry=0x0000700C|body=0x0000700C-0x0000706B|bodyBytes=96|instructions=24|calls=13|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000070c8|entry=0x000070C8|body=0x000070C8-0x000070E7|bodyBytes=32|instructions=8|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000086e4|entry=0x000086E4|body=0x000086E4-0x000086E4|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000873c|entry=0x0000873C|body=0x0000873C-0x00008747|bodyBytes=12|instructions=3|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00008754|entry=0x00008754|body=0x00008754-0x00008754|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00008c58|entry=0x00008C58|body=0x00008C58-0x00008C58|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000090a4|entry=0x000090A4|body=0x000090A4-0x000090A4|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00009310 00009344 -> 00006aec  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00009310 000093e8 -> 0000a028  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00009310 000093fc -> 0000a028  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00009310 00009414 -> 00006b00  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00009310|entry=0x00009310|body=0x00009310-0x0000941F|bodyBytes=272|instructions=68|calls=4|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00009a58|entry=0x00009A58|body=0x00009A58-0x00009A58|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00009f80|entry=0x00009F80|body=0x00009F80-0x00009F80|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00009fd0|entry=0x00009FD0|body=0x00009FD0-0x00009FDF|bodyBytes=16|instructions=4|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a028|entry=0x0000A028|body=0x0000A028-0x0000A033|bodyBytes=12|instructions=3|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a034|entry=0x0000A034|body=0x0000A034-0x0000A047|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a0b4|entry=0x0000A0B4|body=0x0000A0B4-0x0000A0C7|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a43c 0000a470 -> 00006aec  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a43c 0000a48c -> 0000a028  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a43c 0000a4c0 -> 00006b00  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a43c|entry=0x0000A43C|body=0x0000A43C-0x0000A4CB|bodyBytes=144|instructions=36|calls=3|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a68c|entry=0x0000A68C|body=0x0000A68C-0x0000A68C|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a704|entry=0x0000A704|body=0x0000A704-0x0000A704|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a75c 0000a760 -> 0000873c  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a75c 0000a7a4 -> 0000ab54  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a75c 0000a7d8 -> 0000a0b4  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a75c|entry=0x0000A75C|body=0x0000A75C-0x0000A80B|bodyBytes=176|instructions=44|calls=3|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000ab0c|entry=0x0000AB0C|body=0x0000AB0C-0x0000AB0C|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000ab54|entry=0x0000AB54|body=0x0000AB54-0x0000ABD7|bodyBytes=132|instructions=33|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000b794|entry=0x0000B794|body=0x0000B794-0x0000B794|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0007ccb0|entry=0x0007CCB0|body=0x0007CCB0-0x0007CCB0|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_002d1c3c|entry=0x002D1C3C|body=0x002D1C3C-0x002D1C3C|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0053b34c|entry=0x0053B34C|body=0x0053B34C-0x0053B413|bodyBytes=200|instructions=50|calls=0|external=false  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> FUNCTION_COUNT=44  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 000002dc -> Stack[-0x4] type=WRITE  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00000318 -> Stack[-0x4] type=WRITE  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 000006cc -> Stack[-0x10] type=WRITE  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 000006d0 -> Stack[-0xc] type=WRITE  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00000718 -> Stack[-0x4] type=READ  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00000c7c -> Stack[0x0] type=DATA  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00007050 -> Stack[-0x14] type=WRITE  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00007058 -> Stack[-0x10] type=WRITE  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 0000a804 -> Stack[0x8] type=DATA  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> IN_BLOCK_REFERENCES=221  
+2026-11-18 23:32:29 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCES=9  
+2026-11-18 23:33:21 INFO  P500DisableAnalyzers.java> PRE_ANALYSIS_DISABLED_ANALYZERS=30  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> LANGUAGE=ARM:LE:32:v7  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> IMAGE_BASE=00000000  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000060|entry=0x00000060|body=0x00000060-0x000000FB|bodyBytes=156|instructions=39|calls=0|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000002c4|entry=0x000002C4|body=0x000002C4-0x000002C4|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000002dc|entry=0x000002DC|body=0x000002DC-0x000002DC|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000318|entry=0x00000318|body=0x00000318-0x00000318|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000003f0 000003f4 -> 00006aec  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000003f0|entry=0x000003F0|body=0x000003F0-0x0000042F|bodyBytes=64|instructions=16|calls=1|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000520 00000540 -> 0053b34c  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000520|entry=0x00000520|body=0x00000520-0x000005C3|bodyBytes=164|instructions=41|calls=1|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000006bc 000006d8 -> 0000a43c  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000006bc 0000070c -> 000008d0  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000006bc 00000714 -> 000008f0  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000006bc 00000724 -> 00000520  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000006bc|entry=0x000006BC|body=0x000006BC-0x0000072F|bodyBytes=116|instructions=29|calls=4|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000008d0|entry=0x000008D0|body=0x000008D0-0x000008EF|bodyBytes=32|instructions=8|calls=0|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000008f0|entry=0x000008F0|body=0x000008F0-0x000008F7|bodyBytes=8|instructions=2|calls=0|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000009ac 000009dc -> 00006aa4  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_000009ac 00000a24 -> 00006ab8  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000009ac|entry=0x000009AC|body=0x000009AC-0x00000A2F|bodyBytes=132|instructions=33|calls=2|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000a30 00000a4c -> 00006aa4  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000a30 00000a60 -> 00006ab8  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000a30|entry=0x00000A30|body=0x00000A30-0x00000A6B|bodyBytes=60|instructions=15|calls=2|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000a6c 00000a98 -> 00006aa4  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000a6c 00000adc -> 00006ab8  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000a6c|entry=0x00000A6C|body=0x00000A6C-0x00000AE7|bodyBytes=124|instructions=31|calls=2|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00000c3c 00000c50 -> 00006aa4  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00000c3c|entry=0x00000C3C|body=0x00000C3C-0x00000C83|bodyBytes=72|instructions=18|calls=1|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006600|entry=0x00006600|body=0x00006600-0x0000663B|bodyBytes=60|instructions=15|calls=0|external=false  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 000066ec -> 00000a6c  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 000066fc -> 00000c3c  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 00006714 -> 000009ac  
+2026-11-18 23:33:21 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 00006738 -> 00000a30  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000663c 00006754 -> 00000a6c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000663c|entry=0x0000663C|body=0x0000663C-0x0000676F|bodyBytes=308|instructions=77|calls=5|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006824|entry=0x00006824|body=0x00006824-0x00006843|bodyBytes=32|instructions=8|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006aa4|entry=0x00006AA4|body=0x00006AA4-0x00006AB7|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006ab8|entry=0x00006AB8|body=0x00006AB8-0x00006ACB|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006aec|entry=0x00006AEC|body=0x00006AEC-0x00006AFF|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00006b00|entry=0x00006B00|body=0x00006B00-0x00006B13|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007014 -> 000002c4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007018 -> 000086e4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 0000701c -> 00009a58  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007020 -> 000002dc  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007024 -> 00009f80  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007028 -> 0000a68c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 0000702c -> 00008c58  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007030 -> 000090a4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007034 -> 0000b794  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007038 -> 00008754  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 0000703c -> 0000a704  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007040 -> 0000ab0c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000700c 00007044 -> 00000318  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000700c|entry=0x0000700C|body=0x0000700C-0x0000706B|bodyBytes=96|instructions=24|calls=13|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000070c8|entry=0x000070C8|body=0x000070C8-0x000070E7|bodyBytes=32|instructions=8|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000086e4|entry=0x000086E4|body=0x000086E4-0x000086E4|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000873c|entry=0x0000873C|body=0x0000873C-0x00008747|bodyBytes=12|instructions=3|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00008754|entry=0x00008754|body=0x00008754-0x00008754|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00008c58|entry=0x00008C58|body=0x00008C58-0x00008C58|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_000090a4|entry=0x000090A4|body=0x000090A4-0x000090A4|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00009310 00009344 -> 00006aec  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00009310 000093e8 -> 0000a028  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00009310 000093fc -> 0000a028  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_00009310 00009414 -> 00006b00  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00009310|entry=0x00009310|body=0x00009310-0x0000941F|bodyBytes=272|instructions=68|calls=4|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00009a58|entry=0x00009A58|body=0x00009A58-0x00009A58|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00009f80|entry=0x00009F80|body=0x00009F80-0x00009F80|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_00009fd0|entry=0x00009FD0|body=0x00009FD0-0x00009FDF|bodyBytes=16|instructions=4|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a028|entry=0x0000A028|body=0x0000A028-0x0000A033|bodyBytes=12|instructions=3|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a034|entry=0x0000A034|body=0x0000A034-0x0000A047|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a0b4|entry=0x0000A0B4|body=0x0000A0B4-0x0000A0C7|bodyBytes=20|instructions=5|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a43c 0000a470 -> 00006aec  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a43c 0000a48c -> 0000a028  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a43c 0000a4c0 -> 00006b00  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a43c|entry=0x0000A43C|body=0x0000A43C-0x0000A4CB|bodyBytes=144|instructions=36|calls=3|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a68c|entry=0x0000A68C|body=0x0000A68C-0x0000A68C|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a704|entry=0x0000A704|body=0x0000A704-0x0000A704|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a75c 0000a760 -> 0000873c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a75c 0000a7a4 -> 0000ab54  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> CALL FUN_0000a75c 0000a7d8 -> 0000a0b4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000a75c|entry=0x0000A75C|body=0x0000A75C-0x0000A80B|bodyBytes=176|instructions=44|calls=3|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000ab0c|entry=0x0000AB0C|body=0x0000AB0C-0x0000AB0C|bodyBytes=1|instructions=1|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000ab54|entry=0x0000AB54|body=0x0000AB54-0x0000ABD7|bodyBytes=132|instructions=33|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0000b794|entry=0x0000B794|body=0x0000B794-0x0000B794|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0007ccb0|entry=0x0007CCB0|body=0x0007CCB0-0x0007CCB0|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_002d1c3c|entry=0x002D1C3C|body=0x002D1C3C-0x002D1C3C|bodyBytes=1|instructions=0|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION|FUN_0053b34c|entry=0x0053B34C|body=0x0053B34C-0x0053B413|bodyBytes=200|instructions=50|calls=0|external=false  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> FUNCTION_COUNT=44  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_00000060  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000060 stmdb sp!,{r4,r5,r6,r7,r8,r9,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000064 ldr r0,[0x114]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000068 ldr r1,[0x118]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000006c sub r2,r1,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000070 mov r4,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000074 mov r5,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000078 mov r6,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000007c mov r7,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000080 mov r8,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000084 mov r9,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000088 mov r12,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000008c mov lr,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000090 b 0x000000b4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000094 stmia r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000098 stmia r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000009c stmia r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000a0 stmia r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000a4 stmia r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000a8 stmia r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000ac stmia r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000b0 stmia r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000b4 subs r2,r2,#0x100  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000b8 bcs 0x00000094  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000bc ands r2,r2,#0xff  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000c0 ldmiaeq sp!,{r4,r5,r6,r7,r8,r9,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000c4 subs r2,r2,#0x20  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000c8 stmiacs r0!,{r4,r5,r6,r7,r8,r9,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000cc bcs 0x000000c4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000d0 adds r2,r2,#0x20  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000d4 ldmiaeq sp!,{r4,r5,r6,r7,r8,r9,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000d8 subs r2,r2,#0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000dc stmiacs r0!,{r4}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000e0 bcs 0x000000d8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000e4 adds r2,r2,#0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000e8 ldmiaeq sp!,{r4,r5,r6,r7,r8,r9,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000ec subs r2,r2,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000f0 strbcs r4,[r0],#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000f4 bcs 0x000000ec  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000000f8 ldmia sp!,{r4,r5,r6,r7,r8,r9,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_00000060  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_000003f0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000003f0 stmdb sp!,{lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000003f4 bl 0x00006aec  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000003f8 mrc p15,0x0,r3,cr1,cr0,0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000003fc bic r3,r3,#0x1000  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000400 bic r3,r3,#0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000404 mcr p15,0x0,r3,cr1,cr0,0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000408 mov r3,#0x3f  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000040c mcr p15,0x0,r3,cr6,cr0,0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000410 mov r3,#0x37  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000414 mcr p15,0x0,r3,cr6,cr1,0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000418 mov r3,#0x40000037  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000041c mcr p15,0x0,r3,cr6,cr2,0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000420 mov r3,#0x50000000  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000424 add r3,r3,#0x37  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000428 mcr p15,0x0,r3,cr6,cr3,0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000042c mov r3,#0x60000000  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_000003f0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_00000520  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000520 stmdb sp!,{r4,r5,r6,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000524 ldr r4,[0x730]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000528 cpy r6,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000052c ldrh r1,[r4,#0xa4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000530 mov r5,r1, lsr #0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000534 add r0,r5,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000538 sub r1,r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000053c cpy r0,r5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000540 bl 0x0053b34c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000544 cmp r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000548 beq 0x000005bc  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000054c ldr r1,[r4,#0xa0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000550 mov r2,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000554 mvns r1,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000558 beq 0x000005bc  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000055c mvn r3,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000560 clz r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000564 cmp r3,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000568 bcc 0x000005a4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000056c rsb r3,r0,#0x20  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000570 mov r1,r1, lsr r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000574 add r3,r2,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000578 rsb r3,r3,#0x20  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000057c mov r3,r1, lsl r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000580 ldr r1,[r4,#0xa0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000584 str r6,[r4,r2,lsl #0x2]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000588 add r12,r2,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000058c strb r0,[r12,#0x80]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000590 eor r0,r3,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000594 str r0,[r4,#0xa0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000598 mul r0,r5,r2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000059c sub r0,r0,#0x70000000  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005a0 ldmia sp!,{r4,r5,r6,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005a4 add r2,r2,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005a8 mov r1,r1, lsl r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005ac clz r3,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005b0 add r2,r2,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005b4 movs r1,r1, lsl r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005b8 bne 0x0000055c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005bc mov r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000005c0 ldmia sp!,{r4,r5,r6,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_00000520  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_000006bc  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006bc stmdb sp!,{r4,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006c0 sub sp,sp,#0x10  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006c4 cpy r1,sp  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006c8 mov r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006cc str r0,[sp,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006d0 str r0,[sp,#0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006d4 mov r0,#0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006d8 bl 0x0000a43c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006dc ldr r4,[0x730]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006e0 mov r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006e4 str r0,[r4,#0xa0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006e8 add r0,r4,#0x80  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006ec cpy r1,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006f0 mov r2,#0x20  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006f4 mov r3,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006f8 strb r3,[r0],#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000006fc mvn r3,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000700 str r3,[r1],#0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000704 subs r2,r2,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000708 bne 0x000006f4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000070c bl 0x000008d0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000710 strh r0,[r4,#0xa4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000714 bl 0x000008f0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000718 ldr r1,[sp,#0x14]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000071c strh r0,[r4,#0xa6]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000720 mov r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000724 bl 0x00000520  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000728 add sp,sp,#0x10  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000072c ldmia sp!,{r4,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_000006bc  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_000009ac  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009ac stmdb sp!,{r4,r5,r6,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009b0 cpy r6,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009b4 cpy r5,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009b8 cmp r5,#0x80  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009bc bcs 0x000009d0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009c0 cmp r6,#0x6e  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009c4 bls 0x000009d8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009c8 cmp r6,#0x7f  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009cc beq 0x000009d8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009d0 mov r4,#0xff  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009d4 b 0x00000a28  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009d8 mov r0,#0xc0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009dc bl 0x00006aa4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009e0 ldr r2,[0xd54]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009e4 ldr r3,[0xd58]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009e8 add r1,r2,r5, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009ec and r2,r5,#0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009f0 mov r2,r2, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009f4 ldrb r4,[r1,#0x5]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009f8 strb r6,[r1,#0x5]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000009fc mov r1,r5, asr #0x1f  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a00 add r1,r5,r1, lsr #0x1e  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a04 bic r1,r1,#0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a08 add r1,r1,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a0c mov r3,#0xff  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a10 ldr r12,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a14 mov r3,r3, lsl r2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a18 bic r3,r12,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a1c orr r2,r3,r6, lsl r2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a20 str r2,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a24 bl 0x00006ab8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a28 cpy r0,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a2c ldmia sp!,{r4,r5,r6,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_000009ac  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_00000a6c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a6c stmdb sp!,{r4,r5,r6,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a70 cpy r6,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a74 cpy r5,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a78 cmp r5,#0x80  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a7c bcs 0x00000a8c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a80 cmp r6,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a84 cmpne r6,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a88 beq 0x00000a94  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a8c mov r4,#0xff  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a90 b 0x00000ae0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a94 mov r0,#0xc0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a98 bl 0x00006aa4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000a9c ldr r2,[0xd54]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000aa0 ldr r3,[0xd5c]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000aa4 add r1,r2,r5, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000aa8 ldrb r4,[r1,#0x6]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000aac strb r6,[r1,#0x6]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ab0 and r1,r5,#0x1f  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ab4 mov r2,r5, asr #0x1f  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ab8 add r2,r5,r2, lsr #0x1b  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000abc mov r2,r2, asr #0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ac0 add r2,r3,r2, lsl #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ac4 mov r3,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ac8 ldr r12,[r2,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000acc mov r3,r3, lsl r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ad0 bic r3,r12,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ad4 orr r1,r3,r6, lsl r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ad8 str r1,[r2,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000adc bl 0x00006ab8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ae0 cpy r0,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00000ae4 ldmia sp!,{r4,r5,r6,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_00000a6c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_0000663c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000663c stmdb sp!,{r4,r5,r6,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006640 cpy r4,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006644 cpy r5,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006648 cmp r5,#0x6  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000664c bcs 0x00006690  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006650 cmp r4,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006654 ldrne r0,[r4,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006658 cmpne r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000665c beq 0x00006690  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006660 cmp r0,#0x1000000  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006664 bcs 0x00006690  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006668 ldrb r1,[r4,#0xd]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000666c cmp r1,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006670 beq 0x00006690  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006674 ldr r2,[r4,#0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006678 cmp r2,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000667c beq 0x00006698  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006680 ldr r1,[r4,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006684 sub r1,r1,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006688 cmp r1,#0x6e  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000668c bcc 0x00006698  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006690 mov r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006694 ldmia sp!,{r4,r5,r6,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006698 ldr r3,[0x6870]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000669c rsb r6,r3,r5, lsl #0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066a0 ldr r1,[r6,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066a4 cmp r1,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066a8 movne r0,#0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066ac ldmiane sp!,{r4,r5,r6,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066b0 mov r0,r0, lsl #0x8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066b4 orr r0,r0,#0x40  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066b8 ldrb r3,[r4,#0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066bc mov r1,#0x60  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066c0 cmp r3,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066c4 cpyeq r1,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066c8 orr r0,r0,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066cc mov r1,#0x10  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066d0 cmp r2,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066d4 cpyeq r1,r2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066d8 orr r0,r0,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066dc bic r0,r0,#0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066e0 str r0,[r6,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066e4 add r0,r5,#0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066e8 mov r1,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066ec bl 0x00000a6c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066f0 cmp r0,#0xff  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066f4 beq 0x00006768  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066f8 add r0,r5,#0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000066fc bl 0x00000c3c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006700 ldr r2,[r4,#0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006704 cmp r2,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006708 beq 0x00006724  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000670c ldr r1,[r4,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006710 add r0,r5,#0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006714 bl 0x000009ac  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006718 cmp r0,#0xff  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000671c beq 0x00006768  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006720 ldr r2,[r4,#0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006724 ldr r1,[0x6860]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006728 str r2,[r1,r5,lsl #0x2]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000672c ldr r1,[0x6874]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006730 ldr r1,[r1,r5,lsl #0x2]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006734 add r0,r5,#0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006738 bl 0x00000a30  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000673c cmn r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006740 beq 0x00006768  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006744 ldr r0,[r4,#0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006748 movs r1,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000674c movne r1,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006750 add r0,r5,#0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006754 bl 0x00000a6c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006758 cmp r0,#0xff  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000675c movne r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006760 strne r0,[r6,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006764 movne r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00006768 moveq r0,#0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000676c ldmia sp!,{r4,r5,r6,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_0000663c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_0000700c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000700c stmdb sp!,{r4,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007010 sub sp,sp,#0x18  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007014 bl 0x000002c4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007018 bl 0x000086e4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000701c bl 0x00009a58  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007020 bl 0x000002dc  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007024 bl 0x00009f80  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007028 bl 0x0000a68c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000702c bl 0x00008c58  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007030 bl 0x000090a4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007034 bl 0x0000b794  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007038 bl 0x00008754  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000703c bl 0x0000a704  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007040 bl 0x0000ab0c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007044 bl 0x00000318  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007048 ldr lr,[0x70e8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000704c mov r0,#0x10  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007050 strh r0,[sp,#0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007054 mov r4,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007058 str r4,[sp,#0x10]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000705c mov r12,#0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007060 stmia sp,{r4,r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007064 ldr r0,[0x70ec]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00007068 cpy r1,sp  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_0000700c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_00009310  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009310 stmdb sp!,{r4,r5,r6,r7,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009314 cpy r7,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009318 sub r1,r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000931c cmp r1,#0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009320 mvncs r0,#0x22  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009324 ldmiacs sp!,{r4,r5,r6,r7,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009328 ldr r1,[0x9a94]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000932c add r0,r0,r0, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009330 add r4,r1,r0, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009334 ldr r0,[r4,#-0x38]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009338 cmp r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000933c mvnne r0,#0x3e  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009340 ldmiane sp!,{r4,r5,r6,r7,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009344 bl 0x00006aec  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009348 ldr r1,[0x9a98]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000934c cpy r6,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009350 ldr r0,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009354 add r0,r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009358 str r0,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000935c ldr r0,[r7,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009360 str r0,[r4,#-0x48]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009364 ldr r0,[r7,#0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009368 str r0,[r4,#-0x44]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000936c ldr r0,[r7,#0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009370 add r0,r0,#0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009374 bic r1,r0,#0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009378 ldr r0,[r7,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000937c ldr r2,[0x9a9c]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009380 mov r3,r0, lsr #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009384 umull r2,r0,r3,r2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009388 str r1,[r4,#-0x40]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000938c sub r5,r4,#0x48  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009390 movs r0,r0, lsr #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009394 addne r2,r1,r0, lsl #0x7  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009398 strne r2,[r4,#-0x3c]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000939c str r0,[r4,#-0x38]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093a0 movne r4,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093a4 strne r4,[r5,#0x14]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093a8 mvneq r0,#0x20  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093ac ldmiaeq sp!,{r4,r5,r6,r7,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093b0 add r3,r4,r4, lsl #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093b4 add r3,r2,r3, lsl #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093b8 mov r12,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093bc strh r12,[r3,#0x8]!  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093c0 add r12,r1,r4, lsl #0x7  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093c4 sub lr,r0,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093c8 stmib r3,{r12,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093cc ldr r0,[r5,#0x10]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093d0 add r4,r4,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093d4 cmp r4,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093d8 blt 0x000093b0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093dc mov r4,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093e0 add r0,r5,#0x18  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093e4 add r0,r0,r4, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093e8 bl 0x0000a028  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093ec add r4,r4,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093f0 cmp r4,#0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093f4 blt 0x000093e0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093f8 add r0,r5,#0x40  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 000093fc bl 0x0000a028  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009400 ldr r1,[0x9a98]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009404 ldr r0,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009408 sub r0,r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000940c str r0,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009410 cpy r0,r6  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009414 bl 0x00006b00  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 00009418 mov r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000941c ldmia sp!,{r4,r5,r6,r7,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_00009310  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_0000a43c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a43c stmdb sp!,{r4,r5,r6,r7,r10,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a440 cpy r5,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a444 sub r1,r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a448 cmp r1,#0x81  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a44c mvncs r0,#0x22  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a450 ldmiacs sp!,{r4,r5,r6,r7,r10,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a454 ldr r1,[0xa6c8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a458 rsb r0,r0,r0, lsl #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a45c add r4,r1,r0, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a460 ldr r0,[r4,#-0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a464 cmp r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a468 mvnne r0,#0x3e  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a46c ldmiane sp!,{r4,r5,r6,r7,r10,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a470 bl 0x00006aec  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a474 ldr r6,[0xa6cc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a478 cpy r10,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a47c ldr r0,[r6,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a480 add r0,r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a484 str r0,[r6,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a488 sub r0,r4,#0x18  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a48c bl 0x0000a028  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a490 ldr r0,[r5,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a494 str r0,[r4,#-0x10]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a498 ldr r0,[r5,#0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a49c str r0,[r4,#-0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4a0 ldr r0,[r5,#0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4a4 str r0,[r4,#-0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4a8 ldr r0,[r5,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4ac str r0,[r4,#-0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4b0 ldr r0,[r6,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4b4 sub r0,r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4b8 str r0,[r6,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4bc cpy r0,r10  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4c0 bl 0x00006b00  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4c4 mov r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a4c8 ldmia sp!,{r4,r5,r6,r7,r10,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_0000a43c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_0000a75c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a75c stmdb sp!,{r4,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a760 bl 0x0000873c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a764 ldr r1,[r0,#0x18]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a768 ldr r2,[0xaac4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a76c add r1,r1,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a770 str r1,[r0,#0x18]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a774 ldr r1,[0xaac8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a778 ldrsh r0,[r2,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a77c ldrsh r2,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a780 add r0,r0,r2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a784 mov r0,r0, lsl #0x10  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a788 mov r0,r0, asr #0x10  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a78c cmp r0,#0x3e8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a790 ldrge r0,[r1,#0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a794 addge r0,r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a798 strge r0,[r1,#0x4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a79c movge r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7a0 strh r0,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7a4 bl 0x0000ab54  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7a8 ldr r0,[0xaabc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7ac ldr r4,[r0,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7b0 cmp r4,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7b4 ldmiaeq sp!,{r4,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7b8 ldr r2,[0xaac4]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7bc ldr r1,[r4,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7c0 ldr r0,[r2,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7c4 cmp r1,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7c8 subhi r0,r1,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7cc strhi r0,[r4,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7d0 ldmiahi sp!,{r4,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7d4 cpy r0,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7d8 bl 0x0000a0b4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7dc ldr r1,[0xaacc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7e0 ldr r0,[r4,#0x10]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7e4 str r0,[r1,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7e8 ldr r0,[r4,#0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7ec ldr r1,[r4,#0x18]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7f0 blx r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7f4 cpy r1,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7f8 mov r0,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a7fc str r0,[r4,#0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a800 ldr r0,[0xaab8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a804 ldmia sp!,{r4,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000a808 b 0x0000a034  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_0000a75c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_0000ab54  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab54 stmdb sp!,{r4,r5,lr}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab58 ldr r5,[0xadec]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab5c ldr r4,[r5,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab60 cmp r5,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab64 ldmiaeq sp!,{r4,r5,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab68 ldr r2,[0xadf0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab6c ldr r1,[r4,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab70 ldr r0,[r2,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab74 cmp r1,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab78 subgt r0,r1,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab7c strgt r0,[r4,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab80 bgt 0x0000abc8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab84 ldr r0,[r4,#0x28]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab88 mov r1,r0, lsl #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab8c sub r0,r0,r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab90 add r0,r0,r1, lsl #0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab94 ldrsh r1,[r4,#0x24]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab98 add r0,r1,r0, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000ab9c str r0,[r4,#0x8]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000aba0 ldr r0,[r4,#0xc]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000aba4 tst r0,#0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000aba8 beq 0x0000abc8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abac ldr r0,[r4,#0x10]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abb0 ldr r1,[r4,#0x1c]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abb4 blx r1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abb8 ldr r4,[r4,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abbc cmp r5,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abc0 bne 0x0000ab68  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abc4 ldmia sp!,{r4,r5,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abc8 ldr r4,[r4,#0x0]  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abcc cmp r5,r4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abd0 bne 0x0000ab68  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0000abd4 ldmia sp!,{r4,r5,pc}  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_0000ab54  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_BEGIN FUN_0053b34c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b34c mov r3,#0x0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b350 movs r2,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b354 bxeq lr  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b358 bxeq lr  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b35c cmp r2,r1, lsr #0x8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b360 movls r2,r2, lsl #0x8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b364 bcc 0x0053b35c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b368 cmp r2,r1, lsr #0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b36c bhi 0x0053b3f8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b370 cmp r2,r1, lsr #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b374 bhi 0x0053b3f0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b378 cmp r2,r1, lsr #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b37c bhi 0x0053b3e4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b380 cmp r2,r1, lsr #0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b384 bhi 0x0053b3d8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b388 cmp r2,r1, lsr #0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b38c bhi 0x0053b3cc  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b390 cmp r2,r1, lsr #0x6  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b394 bhi 0x0053b3c0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b398 cmp r2,r1, lsr #0x7  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b39c bhi 0x0053b3b4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3a0 movhi r2,r2, lsr #0x8  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3a4 cmp r1,r2, lsl #0x7  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3a8 adc r3,r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3ac subcs r1,r1,r2, lsl #0x7  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3b0 cmp r1,r2, lsl #0x6  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3b4 adc r3,r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3b8 subcs r1,r1,r2, lsl #0x6  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3bc cmp r1,r2, lsl #0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3c0 adc r3,r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3c4 subcs r1,r1,r2, lsl #0x5  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3c8 cmp r1,r2, lsl #0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3cc adc r3,r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3d0 subcs r1,r1,r2, lsl #0x4  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3d4 cmp r1,r2, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3d8 adc r3,r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3dc subcs r1,r1,r2, lsl #0x3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3e0 cmp r1,r2, lsl #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3e4 adc r3,r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3e8 subcs r1,r1,r2, lsl #0x2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3ec cmp r1,r2, lsl #0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3f0 adc r3,r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3f4 subcs r1,r1,r2, lsl #0x1  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3f8 cmp r1,r2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b3fc adc r3,r3,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b400 subcs r1,r1,r2  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b404 cmp r2,r0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b408 bne 0x0053b3a0  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b40c cpy r0,r3  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> INSN 0053b410 bx lr  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> DISASSEMBLY_END FUN_0053b34c  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 000002dc -> Stack[-0x4] type=WRITE  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00000318 -> Stack[-0x4] type=WRITE  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 000006cc -> Stack[-0x10] type=WRITE  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 000006d0 -> Stack[-0xc] type=WRITE  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00000718 -> Stack[-0x4] type=READ  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00000c7c -> Stack[0x0] type=DATA  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00007050 -> Stack[-0x14] type=WRITE  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 00007058 -> Stack[-0x10] type=WRITE  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCE 0000a804 -> Stack[0x8] type=DATA  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> IN_BLOCK_REFERENCES=221  
+2026-11-18 23:33:22 INFO  P500PostAnalysisInventoryScript.java> OUT_OF_BLOCK_REFERENCES=9  

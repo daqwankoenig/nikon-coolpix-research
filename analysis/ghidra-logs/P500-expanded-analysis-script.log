@@ -1,0 +1,230 @@
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000000|instructions=16|branches=2|calls=2|prologue=false|exit=false|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000004|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000008|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000000C|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000010|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000014|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000018|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000001C|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000020|instructions=15|branches=1|calls=2|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000060|instructions=25|branches=2|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000011C|instructions=16|branches=0|calls=0|prologue=true|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000248|instructions=16|branches=0|calls=2|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000003D0|instructions=4|branches=1|calls=1|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000003F0|instructions=16|branches=0|calls=1|prologue=true|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000000B4|instructions=4|branches=1|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000094|instructions=12|branches=1|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00006AEC|instructions=5|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000700C|instructions=24|branches=0|calls=13|prologue=true|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000290|instructions=6|branches=0|calls=1|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00050280|instructions=16|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00080280|instructions=12|branches=2|calls=0|prologue=false|exit=false|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0007FA84|instructions=15|branches=2|calls=1|prologue=false|exit=false|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000A4028|instructions=16|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000003F0|instructions=16|branches=0|calls=1|prologue=true|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000060|instructions=25|branches=2|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000054|to=0x00000060|depth=1|instructions=25|branches=2|calls=0|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0007CCB0|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x002D1C3C|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000700C|instructions=24|branches=0|calls=13|prologue=true|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00006AEC|instructions=5|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000002C4|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000086E4|instructions=22|branches=3|calls=2|prologue=true|exit=false|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007018|to=0x000086E4|depth=1|instructions=22|branches=3|calls=2|prologue=true|exit=false|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00009A58|instructions=14|branches=1|calls=2|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x0000701C|to=0x00009A58|depth=1|instructions=14|branches=1|calls=2|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000002DC|instructions=15|branches=0|calls=1|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007020|to=0x000002DC|depth=1|instructions=15|branches=0|calls=1|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00009F80|instructions=16|branches=1|calls=3|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007024|to=0x00009F80|depth=1|instructions=16|branches=1|calls=3|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A68C|instructions=13|branches=1|calls=2|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007028|to=0x0000A68C|depth=1|instructions=13|branches=1|calls=2|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00008C58|instructions=11|branches=1|calls=1|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x0000702C|to=0x00008C58|depth=1|instructions=11|branches=1|calls=1|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000090A4|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000B794|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00008754|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A704|instructions=22|branches=2|calls=3|prologue=true|exit=false|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x0000703C|to=0x0000A704|depth=1|instructions=22|branches=2|calls=3|prologue=true|exit=false|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000AB0C|instructions=18|branches=2|calls=2|prologue=true|exit=false|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007040|to=0x0000AB0C|depth=1|instructions=18|branches=2|calls=2|prologue=true|exit=false|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000318|instructions=23|branches=0|calls=4|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007044|to=0x00000318|depth=1|instructions=23|branches=0|calls=4|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000070C8|instructions=8|branches=1|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A028|instructions=3|branches=0|calls=0|prologue=false|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00008720|to=0x0000A028|depth=2|instructions=3|branches=0|calls=0|prologue=false|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00009310|instructions=6|branches=0|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x0000030C|to=0x00009310|depth=2|instructions=6|branches=0|calls=0|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00009FD0|instructions=4|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A034|instructions=5|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00006600|instructions=15|branches=2|calls=0|prologue=false|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000328|to=0x00006600|depth=2|instructions=15|branches=2|calls=0|prologue=false|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0053B34C|instructions=3|branches=0|calls=0|prologue=false|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000334|to=0x0053B34C|depth=2|instructions=3|branches=0|calls=0|prologue=false|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000663C|instructions=29|branches=6|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000364|to=0x0000663C|depth=2|instructions=29|branches=6|calls=0|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000006BC|instructions=29|branches=1|calls=4|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000368|to=0x000006BC|depth=2|instructions=29|branches=1|calls=4|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A43C|instructions=6|branches=0|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x000006D8|to=0x0000A43C|depth=3|instructions=6|branches=0|calls=0|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000008D0|instructions=8|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000008F0|instructions=2|branches=0|calls=0|prologue=false|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000714|to=0x000008F0|depth=3|instructions=2|branches=0|calls=0|prologue=false|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000520|instructions=41|branches=4|calls=1|prologue=true|exit=true|accepted=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000724|to=0x00000520|depth=3|instructions=41|branches=4|calls=1|prologue=true|exit=true|previousFunction=true  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> COHERENT_SEEDS=4  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> SEED_REGION_COUNT=23  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANSION_TARGETS_EXAMINED=32  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANSION_TARGETS_ACCEPTED=19  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANSION_TARGETS_REJECTED=13  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> EXPANSION_FUNCTIONS_CREATED=9  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> OUT_OF_IMAGE_CALL_TARGETS=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> RECURSION_DEPTH_LIMIT=3  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> IMAGE_BASE_REMAINS=00000000  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> FUNCTION_COUNT_AFTER=44  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INSTRUCTION_BYTES_AFTER=3780  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INSTRUCTION_COVERAGE_PERCENT=0.0506  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> DEFINED_STRINGS=3713  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> MATCHED_STRINGS=585  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> MATCHED_STRINGS_WITH_XREFS=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x000008EC|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x000008F4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006614|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006638|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006840|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006AB4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006AC8|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006AFC|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006B10|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006F78|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x000070E4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00008744|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00009FDC|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000A030|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000A044|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000A0C4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000A7F0|mnemonic=BLX|text=blx r1|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000ABB4|mnemonic=BLX|text=blx r1|flows=0  
+2026-11-18 23:52:12 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0053B410|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000000|instructions=16|branches=2|calls=2|prologue=false|exit=false|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000004|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000008|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000000C|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000010|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000014|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000018|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000001C|instructions=1|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000020|instructions=15|branches=1|calls=2|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000060|instructions=25|branches=2|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000011C|instructions=16|branches=0|calls=0|prologue=true|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000248|instructions=16|branches=0|calls=2|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000003D0|instructions=4|branches=1|calls=1|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000003F0|instructions=16|branches=0|calls=1|prologue=true|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000000B4|instructions=4|branches=1|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000094|instructions=12|branches=1|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00006AEC|instructions=5|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000700C|instructions=34|branches=0|calls=16|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000290|instructions=6|branches=0|calls=1|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00050280|instructions=16|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00080280|instructions=12|branches=2|calls=0|prologue=false|exit=false|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0007FA84|instructions=15|branches=2|calls=1|prologue=false|exit=false|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000A4028|instructions=16|branches=1|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000003F0|instructions=16|branches=0|calls=1|prologue=true|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000060|instructions=25|branches=2|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000054|to=0x00000060|depth=1|instructions=25|branches=2|calls=0|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000002C4|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000086E4|instructions=22|branches=3|calls=2|prologue=true|exit=false|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007018|to=0x000086E4|depth=1|instructions=22|branches=3|calls=2|prologue=true|exit=false|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00009A58|instructions=14|branches=1|calls=2|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x0000701C|to=0x00009A58|depth=1|instructions=14|branches=1|calls=2|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000002DC|instructions=15|branches=0|calls=1|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007020|to=0x000002DC|depth=1|instructions=15|branches=0|calls=1|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00009F80|instructions=16|branches=1|calls=3|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007024|to=0x00009F80|depth=1|instructions=16|branches=1|calls=3|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A68C|instructions=13|branches=1|calls=2|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007028|to=0x0000A68C|depth=1|instructions=13|branches=1|calls=2|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00008C58|instructions=11|branches=1|calls=1|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x0000702C|to=0x00008C58|depth=1|instructions=11|branches=1|calls=1|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000090A4|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000B794|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00008754|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A704|instructions=22|branches=2|calls=3|prologue=true|exit=false|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x0000703C|to=0x0000A704|depth=1|instructions=22|branches=2|calls=3|prologue=true|exit=false|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000AB0C|instructions=18|branches=2|calls=2|prologue=true|exit=false|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007040|to=0x0000AB0C|depth=1|instructions=18|branches=2|calls=2|prologue=true|exit=false|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000318|instructions=23|branches=0|calls=4|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00007044|to=0x00000318|depth=1|instructions=23|branches=0|calls=4|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00007694|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00007948|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000003CC|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0007CCB0|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x002D1C3C|instructions=0|branches=0|calls=0|prologue=false|exit=false|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000700C|instructions=34|branches=0|calls=16|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x000003D4|to=0x0000700C|depth=1|instructions=34|branches=0|calls=16|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00006AEC|instructions=5|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000070C8|instructions=8|branches=1|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A028|instructions=3|branches=0|calls=0|prologue=false|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00008720|to=0x0000A028|depth=2|instructions=3|branches=0|calls=0|prologue=false|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00009310|instructions=6|branches=0|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x0000030C|to=0x00009310|depth=2|instructions=6|branches=0|calls=0|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00009FD0|instructions=4|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A034|instructions=5|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00006600|instructions=15|branches=2|calls=0|prologue=false|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000328|to=0x00006600|depth=2|instructions=15|branches=2|calls=0|prologue=false|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0053B34C|instructions=3|branches=0|calls=0|prologue=false|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000334|to=0x0053B34C|depth=2|instructions=3|branches=0|calls=0|prologue=false|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000663C|instructions=29|branches=6|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000364|to=0x0000663C|depth=2|instructions=29|branches=6|calls=0|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000006BC|instructions=29|branches=1|calls=4|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000368|to=0x000006BC|depth=2|instructions=29|branches=1|calls=4|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x0000A43C|instructions=6|branches=0|calls=0|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x000006D8|to=0x0000A43C|depth=3|instructions=6|branches=0|calls=0|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000008D0|instructions=8|branches=0|calls=0|prologue=false|exit=true|accepted=false  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x000008F0|instructions=2|branches=0|calls=0|prologue=false|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000714|to=0x000008F0|depth=3|instructions=2|branches=0|calls=0|prologue=false|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> TARGET_DECODE|start=0x00000520|instructions=41|branches=4|calls=1|prologue=true|exit=true|accepted=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANDED_TARGET|from=0x00000724|to=0x00000520|depth=3|instructions=41|branches=4|calls=1|prologue=true|exit=true|previousFunction=true  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> COHERENT_SEEDS=5  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> SEED_REGION_COUNT=23  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANSION_TARGETS_EXAMINED=35  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANSION_TARGETS_ACCEPTED=20  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANSION_TARGETS_REJECTED=15  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> EXPANSION_FUNCTIONS_CREATED=1  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> OUT_OF_IMAGE_CALL_TARGETS=0  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> RECURSION_DEPTH_LIMIT=3  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> IMAGE_BASE_REMAINS=00000000  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> FUNCTION_COUNT_AFTER=44  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> INSTRUCTION_BYTES_AFTER=3872  
+2026-11-19 00:06:12 INFO  P500D3ExpandTargets.java> INSTRUCTION_COVERAGE_PERCENT=0.0518  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> DEFINED_STRINGS=3713  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> MATCHED_STRINGS=585  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> MATCHED_STRINGS_WITH_XREFS=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x000008EC|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x000008F4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006614|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006638|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006840|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006AB4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006AC8|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006AFC|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006B10|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00006F78|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x000070C4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x000070E4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00008744|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x00009FDC|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000A030|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000A044|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000A0C4|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000A7F0|mnemonic=BLX|text=blx r1|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0000ABB4|mnemonic=BLX|text=blx r1|flows=0  
+2026-11-19 00:06:13 INFO  P500D3ExpandTargets.java> INDIRECT_BRANCH|offset=0x0053B410|mnemonic=BX|text=bx lr|flows=0  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> FUNCTION=FUN_000070ac|entry=0x000070AC|bodyBytes=28  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> INSTRUCTION|000070ac|cmp r2,#0x0  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> INSTRUCTION|000070b0|ldrsbgt r3,[r0],#0x1  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> INSTRUCTION|000070b4|subgt r2,r2,#0x1  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> INSTRUCTION|000070b8|strbgt r3,[r1],#0x1  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> INSTRUCTION|000070bc|cmpgt r2,#0x0  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> INSTRUCTION|000070c0|bgt 0x000070b0  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> INSTRUCTION|000070c4|bx lr  
+2026-11-19 00:26:06 INFO  P500D3CreateCopyHelper.java> IMAGE_BASE_REMAINS=00000000  

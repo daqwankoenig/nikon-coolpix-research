@@ -1,0 +1,27 @@
+Historical draft only - do not submit or attach. Nikon contact is inactive per current user direction.
+
+Nikon COOLPIX P510 - Historical Firmware Inquiry Evidence
+Prepared: 2026-11-20
+
+Camera: Nikon COOLPIX P510
+Installed firmware displayed by the camera: Version 1.0
+Official product page:
+https://downloadcenter.nikonimglib.com/en/products/55/COOLPIX_P510.html
+
+Current official-page result:
+The page has no camera-body firmware download listed. This is a current-page observation, not proof that Nikon never released body firmware.
+
+Historical page review:
+Sixteen archived captures of the official P510 product page dated 2015-06-14 through 2023-04-07 were examined. Each lists only an A-GPS Update File in the Firmware category; no camera-body updater or body-firmware release information was found in those captures. No capture of this exact product page before 2015-06-14 was located, and regional archive coverage was incomplete.
+
+Important distinction:
+NML_28A.ee is identified in Nikon's archived description as A-GPS assistance data. It is not the requested camera-body firmware. Desktop Nikon software is also distinct from camera-body firmware. No body-firmware updater filename or package has been recovered.
+
+Information requested from Nikon:
+- Was Version 1.0 the only production P510 camera-body firmware version?
+- Did later or internal body-firmware versions exist?
+- Did Nikon publish or internally distribute a P510 updater, service package, recovery image, or reflash image?
+- Are official filenames, version numbers, dates, release notes, bulletin numbers, service records, or archived media available?
+- Can Nikon or an authorized Nikon service center reflash or restore a P510 today?
+
+This inquiry concerns historical preservation and version verification. It does not assert that Nikon never released firmware and does not request source code, keys, credentials, or confidential service access.

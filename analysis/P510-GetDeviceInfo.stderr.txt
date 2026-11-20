@@ -1,0 +1,1 @@
+Refusing: expected exactly one 04B0:0223 Still Image/PTP interface

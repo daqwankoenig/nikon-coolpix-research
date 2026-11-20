@@ -1,0 +1,28 @@
+NX Studio installer reference record
+Analysis date: 2026-11-18
+Original file (immutable):
+  reference-media/software/NX-Studio/S-NXSTDO-011100WF-ALLIN-ALL___.exe
+  Size: 263118416 bytes
+  SHA-256: 3E50B4CD3CE0CBD467F2E59D864DCF6A34C1A4CE28DD381348D4BA29B55D0075
+  SHA-1:   9B6E3489E3181A2221EFA9C948D7025A7F0C9BB6
+  MD5:     D698F3F3A50422B70939B2BAFDC93A0D
+
+Static metadata:
+  PE architecture: x86 (I386), PE32
+  File version: 1.11.0.30000
+  Product version: 1.11.0.30000
+  Company: Nikon Corporation
+  Product: NX Studio
+  Description: Setup Launcher NX Studio
+
+Authenticode:
+  Verification status: Valid (Get-AuthenticodeSignature; signature verified)
+  Signer: CN=NIKON CORPORATION, O=NIKON CORPORATION, L=Shinagawa-ku,
+    S=Tokyo, C=JP
+  Issuer: DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+  Signer certificate notAfter: 2026-10-10
+  Timestamp certificate present: DigiCert SHA256 RSA4096 Timestamp Responder 2025 1
+  Timestamp certificate notAfter: 2036-09-03
+
+The original SHA-256 was checked before and after read-only 7-Zip inspection
+and PE-section extraction; it matched both times. The installer was not run.

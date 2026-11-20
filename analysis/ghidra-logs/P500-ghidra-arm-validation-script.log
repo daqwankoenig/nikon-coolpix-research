@@ -1,0 +1,64 @@
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> REGION initial vector table offset=0x00000000 length=0x20 end=0x0000001F success=true status=null  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000000  06 00 00 EA              B        0x00000020 flow=UNCONDITIONAL_JUMP targets=00000020  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>     REF UNCONDITIONAL_JUMP -> 00000020 (0)  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> SUMMARY instructions=1 decodedBytes=4/32 jumps=1 calls=0 conditional=0 terminals=0 LDR_STR=0 STM_LDM_PUSH_POP=0 MOV=0 CMP_CMN=0 BX=0 BLX=0  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> REGION vector target 0x20 offset=0x00000020 length=0x80 end=0x0000009F success=true status=null  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000020  D1 F0 21 E3              MSR      cpsr_c ; #0xd1 flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000024  D0 D0 9F E5              LDR      sp ; [0xfc] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000028  D2 F0 21 E3              MSR      cpsr_c ; #0xd2 flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0000002c  CC D0 9F E5              LDR      sp ; [0x100] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000030  D3 F0 21 E3              MSR      cpsr_c ; #0xd3 flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000034  C8 D0 9F E5              LDR      sp ; [0x104] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000038  D7 F0 21 E3              MSR      cpsr_c ; #0xd7 flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0000003c  C4 D0 9F E5              LDR      sp ; [0x108] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000040  DB F0 21 E3              MSR      cpsr_c ; #0xdb flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000044  C0 D0 9F E5              LDR      sp ; [0x10c] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000048  DF F0 21 E3              MSR      cpsr_c ; #0xdf flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0000004c  BC D0 9F E5              LDR      sp ; [0x110] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000050  E6 00 00 EB              BL       0x000003f0 flow=UNCONDITIONAL_CALL targets=000003f0  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>     REF UNCONDITIONAL_CALL -> 000003f0 (0)  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000054  01 00 00 EB              BL       0x00000060 flow=UNCONDITIONAL_CALL targets=00000060  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>     REF UNCONDITIONAL_CALL -> 00000060 (0)  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000058  DC 00 00 EA              B        0x000003d0 flow=UNCONDITIONAL_JUMP targets=000003d0  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>     REF UNCONDITIONAL_JUMP -> 000003d0 (0)  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> SUMMARY instructions=15 decodedBytes=60/128 jumps=1 calls=2 conditional=0 terminals=0 LDR_STR=6 STM_LDM_PUSH_POP=0 MOV=0 CMP_CMN=0 BX=0 BLX=0  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> REGION vector target 0x11C offset=0x0000011C length=0x40 end=0x0000015B success=true status=null  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0000011c  84 D1 9F E5              LDR      sp ; [0x2a8] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000120  00 E0 8D E5              STR      lr ; [sp,#0x0] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000124  00 E0 4F E1              MRS      lr ; spsr flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000128  04 E0 8D E5              STR      lr ; [sp,#0x4] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0000012c  78 D1 9F E5              LDR      sp ; [0x2ac] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000130  DF F0 21 E3              MSR      cpsr_c ; #0xdf flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000134  0F 58 2D E9              STMDB    sp!,{r0,r1,r2,r3,r11,r12,lr} flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000138  68 01 9F E5              LDR      r0 ; [0x2a8] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0000013c  00 10 90 E5              LDR      r1 ; [r0,#0x0] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000140  04 20 90 E5              LDR      r2 ; [r0,#0x4] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000144  06 00 2D E9              STMDB    sp!,{r1,r2} flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000148  60 01 9F E5              LDR      r0 ; [0x2b0] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0000014c  00 10 90 E5              LDR      r1 ; [r0,#0x0] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000150  01 10 81 E2              ADD      r1 ; r1 ; #0x1 flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000154  00 10 80 E5              STR      r1 ; [r0,#0x0] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000158  54 01 9F E5              LDR      r0 ; [0x2b4] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> SUMMARY instructions=16 decodedBytes=64/64 jumps=0 calls=0 conditional=0 terminals=0 LDR_STR=11 STM_LDM_PUSH_POP=2 MOV=0 CMP_CMN=0 BX=0 BLX=0  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> REGION vector targets 0x244-0x278 offset=0x00000244 length=0x40 end=0x00000283 success=true status=null  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000244  FE FF FF EA              B        0x00000244 flow=UNCONDITIONAL_JUMP targets=00000244  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>     REF UNCONDITIONAL_JUMP -> 00000244 (0)  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> SUMMARY instructions=1 decodedBytes=4/64 jumps=1 calls=0 conditional=0 terminals=0 LDR_STR=0 STM_LDM_PUSH_POP=0 MOV=0 CMP_CMN=0 BX=0 BLX=0  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> REGION vector target 0x290 offset=0x00000290 length=0x40 end=0x000002CF success=true status=null  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000290  28 10 9F E5              LDR      r1 ; [0x2c0] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000294  0E 00 A0 E1              CPY      r0 ; lr flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00000298  08 00 50 E2              SUBS     r0 ; r0 ; #0x8 flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0000029c  00 00 81 E5              STR      r0 ; [r1,#0x0] flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   000002a0  FB 00 A0 E3              MOV      r0 ; #0xfb flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   000002a4  64 46 0B EB              BL       0x002d1c3c flow=UNCONDITIONAL_CALL targets=002d1c3c  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>     REF UNCONDITIONAL_CALL -> 002d1c3c (0)  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   000002a8  00 BA 6A 50              RSBPL    r11 ; r10 ; r0, lsl #0x14 flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   000002ac  00 B0 FC 57              LDRBPL   r11 ; [r12,r0]! flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   000002b0  84 FA EE 57              STRBPL   pc ; [lr,r4,lsl #0x15]! flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> SUMMARY instructions=9 decodedBytes=36/64 jumps=0 calls=1 conditional=0 terminals=0 LDR_STR=4 STM_LDM_PUSH_POP=0 MOV=1 CMP_CMN=0 BX=0 BLX=0  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> REGION base-dependent candidate 0x74028 offset=0x00074028 length=0x60 end=0x00074087 success=true status=null  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00074028  80 02 EF 57              STRBPL   r0 ; [pc,r0,lsl #0x5]! flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   0007402c  88 02 EF 57              STRBPL   r0 ; [pc,r8,lsl #0x5]! flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00074030  84 02 EF 57              STRBPL   r0 ; [pc,r4,lsl #0x5]! flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java>   00074034  8C 02 EF 57              STRBPL   r0 ; [pc,r12,lsl #0x5]! flow=FALL_THROUGH targets=  
+2026-11-18 22:01:50 INFO  P500ArmValidationScript.java> SUMMARY instructions=4 decodedBytes=16/96 jumps=0 calls=0 conditional=0 terminals=0 LDR_STR=4 STM_LDM_PUSH_POP=0 MOV=0 CMP_CMN=0 BX=0 BLX=0  

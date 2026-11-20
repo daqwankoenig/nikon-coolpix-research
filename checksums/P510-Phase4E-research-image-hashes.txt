@@ -1,0 +1,6 @@
+P510 Phase 4E research-image SHA-256 manifest
+Generated: 2026-11-20
+Scope: one newly saved seller-provided reverse-face board photograph. This is a research image, not a firmware artifact.
+Paths are relative to the project root.
+
+13395DB7D23BE42F4BC05720932A18AAAD642B1F0BD102D085BA497FF213BA5A  analysis/phase4e-board-images/ebay-115640102604-side-b.jpg
