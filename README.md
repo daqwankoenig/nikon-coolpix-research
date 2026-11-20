@@ -10,18 +10,42 @@ Long-term, evidence-led research into the Nikon COOLPIX P510, with three princip
 
 This repository is for research and preservation. It does not contain P510 firmware or authorize camera operations or firmware changes.
 
-## Current status
+## Using This Research
 
-The project is paused pending new P510-specific evidence.
+This project is being published so other researchers can verify, reuse, and
+continue Nikon COOLPIX P510 research.
 
-- The physical P510 displays firmware version **1.0**.
-- USB identity observed: **VID 04B0 / PID 0223**.
-- A standard PTP `GetDeviceInfo` response was successfully captured and preserved.
-- Authentic P510 firmware has not been acquired; [`firmware/original/P510/`](firmware/original/P510/) remains empty.
-- The processor and firmware-storage device remain unidentified.
-- No supported firmware-read mechanism is known.
-- RAW, focus-peaking, and clean-HDMI feasibility on P510 each remain **UNKNOWN**.
-- P500/P520 results are reference-model evidence only and must never be treated as P510 facts without independent evidence.
+- Original repository material is licensed under the [MIT License](LICENSE).
+- Third-party Nikon and external materials are not relicensed by this
+  repository. See [THIRD-PARTY-MATERIAL.md](THIRD-PARTY-MATERIAL.md).
+- P500 and P520 findings are reference-model evidence only and are not P510
+  facts without independent evidence.
+- Interpretations must retain the evidence classifications in
+  [RESEARCH-RULES.md](RESEARCH-RULES.md).
+- Contributions should follow [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Current Research Status
+
+> **Primary blocker: authentic P510 firmware has not been acquired.**
+> `firmware/original/P510/` is intentionally empty.
+
+- Physical P510 firmware version **1.0** has been confirmed.
+- P510 USB VID/PID: **04B0:0223**.
+- A 293-byte PTP `GetDeviceInfo` dataset was captured successfully.
+- P510 processor and firmware-storage device remain unidentified; no supported
+  firmware-read mechanism is known.
+- **RAW feasibility: UNKNOWN**
+- **Focus-peaking feasibility: UNKNOWN**
+- **Clean-HDMI feasibility: UNKNOWN**
+- The project is paused pending new P510-specific evidence.
+
+Key records:
+
+- [P510-known-facts.md](analysis/P510-known-facts.md)
+- [P510-Phase4-final-status.md](analysis/P510-Phase4-final-status.md)
+- [P510-Phase5-final-status.md](analysis/P510-Phase5-final-status.md)
+- [P510-enhancement-research-checkpoint.md](analysis/P510-enhancement-research-checkpoint.md)
+- [PROJECT-MANIFEST.md](PROJECT-MANIFEST.md)
 
 ## Safety status
 
@@ -43,7 +67,8 @@ Physical-camera communication requires explicit authorization. Never bypass sign
 
 ## Repository and Codespaces
 
-The intended private GitHub repository name is `nikon-p510-research`. This workspace is being prepared for preservation only; it has not been initialized or pushed to GitHub.
+The intended public GitHub repository is `nikon-p510-research`. Publication is
+being prepared locally; no push is authorized as part of this change.
 
 GitHub Codespaces is intended for documentation, C source inspection/building, hash validation, and offline analysis. It cannot replace the local WSL/usbipd environment for physical USB work. No camera-control packages are installed or configured. Any later physical-camera interaction remains local-only and separately authorized.
 
