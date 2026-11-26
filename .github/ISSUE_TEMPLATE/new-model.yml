@@ -1,0 +1,48 @@
+name: Request a new camera model
+description: Ask for research on another Nikon COOLPIX model.
+title: "[Model] "
+labels: ["new-model"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New models get their own folder under models/ and start with every physical-camera action blocked until approved.
+        Do not upload firmware. Link to where it can be found and give its hash.
+  - type: input
+    id: model
+    attributes:
+      label: Model name
+      placeholder: "For example: COOLPIX P530"
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Proposed role
+      options:
+        - Research target
+        - Reference model
+    validations:
+      required: true
+  - type: dropdown
+    id: camera
+    attributes:
+      label: Is a physical camera available?
+      options:
+        - "Yes"
+        - "No"
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Known sources
+      description: Links to official firmware pages, manuals, teardown guides, or earlier research. Links only.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I have not attached firmware or proprietary files.
+          required: true
