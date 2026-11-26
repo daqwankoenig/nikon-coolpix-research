@@ -1,7 +1,7 @@
 # Nikon COOLPIX P510 Project Manifest
 
 **Inventory date:** 2026-11-20  
-**Intended repository:** `nikon-p510-research` (private; not initialized or pushed)  
+**Intended repository:** `nikon-P510-research` (private; not initialized or pushed)  
 **Purpose:** Preserve project-authored research, first-party P510 captures, source, and integrity records while excluding third-party material that should not be republished.
 
 ## Inventory summary
@@ -18,7 +18,7 @@ The pre-migration workspace inventory found **334 files**. Categories overlap wh
 | Reference firmware | 11 P500/P520 updater and extracted firmware files. Reference-only and proprietary; excluded from Git. Keep local copies unchanged and preserve existing hashes/provenance. |
 | Third-party source | No third-party source-code checkout or vendored library was found. Third-party code/tooling evaluations are project-authored notes; external source snapshots are not included. |
 | Downloaded research images | 51 JPG research images: iFixit P510/P500 guide photographs and one seller-provided P510 board image. Excluded because reuse/redistribution rights are not established or are license-restricted. Existing image manifests and source records are retained. |
-| Ghidra artifacts | 12 project database files and 99 runtime/cache/state files. Excluded as machine-specific generated state. The separate text logs in `analysis/ghidra-logs/` and the analysis reports remain available for research context. |
+| Ghidra artifacts | 12 project database files and 99 runtime/cache/state files. Excluded as machine-specific generated state. The separate text logs in `models/p500/analysis/ghidra-logs/` and the analysis reports remain available for research context. |
 | Temporary/generated files | 68 `.tmp` files, two compiled PTP executables in `build/`, extracted NX Studio PE content, and other local cache/build artifacts. Excluded; not deleted. |
 | Secrets/sensitive data | The enhanced privacy audit replaced local WSL account-name and Windows profile-path username occurrences with `<LOCAL_USER>`. No password, token, API key, private-key block, authorization header, cookie/session credential, private email address, or Windows credential command was found in the repository-bound files. The raw DeviceInfo serial is a device identifier, not an authentication credential; the raw capture is retained as first-party data. |
 | Other | Empty `backups/`, `docs/`, and `tools/` directories; root `.gitignore`; existing `README.md`; `.github/copilot-instructions.md`; ignored `build/` outputs. |
@@ -35,7 +35,8 @@ The capture should be reviewed for device-identifier exposure before adding coll
 
 ### Phase 4 - Firmware acquisition and board documentation
 
-Phase 4 records public firmware/archive searches, Nikon-page evidence, board-image research, and acquisition blockers. No authentic P510 firmware is available; `firmware/original/P510/` remains empty. Public firmware and board-documentation paths are exhausted for now. Read [P510-Phase4-final-status.md](analysis/P510-Phase4-final-status.md) and the related Phase 4 reports in `analysis/`.
+Phase 4 records public firmware/archive searches, Nikon-page evidence, board-image research, and acquisition blockers. No authentic P510 firmware is available; `firmware/original/P510/` remains empty. Public firmware and board-documentation paths are exhausted for now. Read [P510-Phase4-final-status.md](analysis/P510-Phase4-final-status.md) and the related Phase 4 reports in models/p510/analysis/
+.
 
 ### Phase 5 - Enhancement feasibility
 
