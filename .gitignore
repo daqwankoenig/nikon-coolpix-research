@@ -1,3 +1,10 @@
+# =============================================================
+# Nikon COOLPIX research repository - .gitignore
+# Multi-model layout: models/p500, models/p510, models/p520, common/
+# Firmware and proprietary material is NEVER committed. Keep hash
+# records and notes instead.
+# =============================================================
+
 # Secrets, credentials, and local environment files.
 .env
 .env.*
@@ -26,11 +33,22 @@
 *.crd
 
 # Local backups and firmware images/derivatives. Keep hash records and notes.
+# Local firmware layout (same for every model):
+#   firmware/original/<MODEL>/    untouched originals
+#   firmware/reference/<MODEL>/   reference samples
+#   firmware/extracted/<MODEL>/   extracted payloads
+#   firmware/modified/<MODEL>/    derived or changed files
 /backups/**
 /firmware/original/**
 /firmware/reference/**
 /firmware/extracted/**
 /firmware/modified/**
+# Catch-all so any new firmware subfolder is covered automatically.
+/firmware/**
+# Only the layout note may be committed from the firmware folder.
+!/firmware/README.md
+
+# Binary, image, and compiled file types (firmware and derivatives).
 *.bin
 *.rom
 *.fw
@@ -62,18 +80,20 @@
 *.lib
 *.class
 
-# The 293-byte P510 DeviceInfo response is owner-captured research data.
-!/analysis/P510-GetDeviceInfo.raw.bin
+# Exception: the 293-byte P510 DeviceInfo response is owner-captured
+# research data. NOTE: it contains the camera's device serial field.
+# Remove this exception line if you decide to take the file out of the repo.
+!/models/p510/analysis/P510-GetDeviceInfo.raw.bin
 
 # Proprietary Nikon media/installers and first-level installer extraction.
-/reference-media/original/**
-/reference-media/software/**
-/reference-media/analysis/NX-Studio/extracted/**
+**/reference-media/original/**
+**/reference-media/software/**
+**/NX-Studio/extracted/**
 
 # Third-party board photographs and archived web-page bodies.
-/analysis/phase4d-board-images/**
-/analysis/phase4e-board-images/**
-/analysis/phase4b-web-captures/**
+**/phase4d-board-images/**
+**/phase4e-board-images/**
+**/phase4b-web-captures/**
 
 # Local build outputs and generated/cache state.
 /build/
@@ -101,8 +121,9 @@ Desktop.ini
 .vscode/
 
 # Ghidra databases and machine-local runtime/cache state.
-/analysis/ghidra-projects/
-/analysis/ghidra-cache/
-/analysis/ghidra-temp/
-/analysis/ghidra-user-state/
-/analysis/.ghidra/
+# (Text logs in ghidra-logs/ are intentionally kept in Git.)
+**/ghidra-projects/
+**/ghidra-cache/
+**/ghidra-temp/
+**/ghidra-user-state/
+**/.ghidra/

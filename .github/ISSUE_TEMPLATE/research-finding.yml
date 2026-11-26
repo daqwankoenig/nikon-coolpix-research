@@ -1,0 +1,68 @@
+name: Research finding
+description: Report a finding, observation, or question about a specific camera model.
+title: "[Finding] "
+labels: ["needs-evidence"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Findings are model-scoped. A fact proven for one model is only a hypothesis for another until it is independently verified.
+        Do not attach firmware, installers, manuals, or third-party photos. Link to the source and give its hash instead.
+  - type: dropdown
+    id: model
+    attributes:
+      label: Model
+      description: Which camera does this finding come from?
+      options:
+        - P510
+        - P520
+        - P500
+        - Other (name it below)
+    validations:
+      required: true
+  - type: dropdown
+    id: goal
+    attributes:
+      label: Related goal
+      options:
+        - Not goal-specific
+        - G-01 RAW capture
+        - G-02 Focus peaking
+        - G-03 Clean HDMI output
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence label
+      description: See RESEARCH-RULES.md.
+      options:
+        - CONFIRMED (for the model named above)
+        - STRONGLY SUPPORTED HYPOTHESIS
+        - HYPOTHESIS
+        - UNKNOWN
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: Finding
+      description: What did you find or observe?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Evidence and source
+      description: Files in this repository, URLs, hashes, offsets. If this came from a different model, name it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Checks
+      options:
+        - label: I have not attached or pasted firmware, proprietary files, or credentials.
+          required: true
+        - label: I did not run anything on a physical camera that was not explicitly approved.
+          required: true

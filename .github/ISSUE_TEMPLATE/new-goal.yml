@@ -1,0 +1,30 @@
+name: Propose a new goal
+description: Propose a research goal. Once adopted, it is tracked for every model.
+title: "[Goal] "
+labels: ["new-goal", "standards"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Goals are defined once in docs/standards/goals.md and tracked for **every** camera model. A model that has not started shows "Not started".
+  - type: input
+    id: name
+    attributes:
+      label: Goal name
+      placeholder: "For example: Focus assist overlay"
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: What evidence would show the goal is achieved, or shown to be not possible?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this goal?
+      description: Which model prompted it, and why does it matter?
+    validations:
+      required: true
