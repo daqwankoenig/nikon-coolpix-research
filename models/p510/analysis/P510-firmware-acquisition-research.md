@@ -8,7 +8,7 @@
 
 No commands were sent to the camera. No USB/PTP/MTP connection was attempted. No SD card was prepared or inserted. No service mode was entered. The camera was not opened, modified, or flashed. No third-party utility or firmware package was downloaded or executed.
 
-P500 and P520 firmware remain reference material only. In particular, P500 ARM32 findings do not establish P510 architecture. Phase 2D-4 is the current P500 stopping point; broad P500 reverse engineering remains paused. See [P500-string-reference-analysis.md](P500-string-reference-analysis.md) and [P510-known-facts.md](P510-known-facts.md).
+P500 and P520 firmware remain reference material only. In particular, P500 ARM32 findings do not establish P510 architecture. Phase 2D-4 is the current P500 stopping point; broad P500 reverse engineering remains paused. See [P500-string-reference-analysis.md](../../p500/analysis/P500-string-reference-analysis.md) and [P510-known-facts.md](P510-known-facts.md).
 
 ## Executive result
 
@@ -111,7 +111,7 @@ No probing instructions, pinouts, test-point locations, or access sequences are 
 
 ## G. Firmware reconstruction from P500/P520
 
-- The local package comparison records different P500 and P520 payload sizes, headers, entropy, and internal visibility. The P500 sample has `SG583` records and strongly supported ARM32 little-endian code; the P520 payload is opaque/high entropy and its architecture remains unknown. See [P500-P520-comparison.md](P500-P520-comparison.md) and [P500-P520-payload-comparison.md](P500-P520-payload-comparison.md).
+- The local package comparison records different P500 and P520 payload sizes, headers, entropy, and internal visibility. The P500 sample has `SG583` records and strongly supported ARM32 little-endian code; the P520 payload is opaque/high entropy and its architecture remains unknown. See [P500-P520-comparison.md](../../../comparisons/P500-P520-comparison.md) and [P500-P520-payload-comparison.md](../../../comparisons/P500-P520-payload-comparison.md).
 - Both packages expose model-specific `P<Model>Update\firmware\firmware.bin` paths, which can guide a **packaging-convention hypothesis** only.
 - No P510 sample, P510 header, P510 key, P510 platform definition, or P510 component boundary has been established. Similar product naming does not prove common hardware or format.
 - P500/P520 files must not be copied into P510 original/modified directories or used to synthesize a P510 image. Reconstruction from neighboring binaries cannot yield a byte-for-byte copy of the physical P510's installed Version 1.0.
@@ -149,9 +149,9 @@ No probing instructions, pinouts, test-point locations, or access sequences are 
 
 - [P510 physical-camera observation](P510-physical-camera-observations.md)
 - [P510 manual and ISO analysis](P510-disc-manual-analysis.md)
-- [P500/P520 package comparison](P500-P520-comparison.md)
-- [P500/P520 extracted-payload comparison](P500-P520-payload-comparison.md)
-- [Phase 2D-4 P500 stopping report](P500-string-reference-analysis.md)
+- [P500/P520 package comparison](../../../comparisons/P500-P520-comparison.md)
+- [P500/P520 extracted-payload comparison](../../../comparisons/P500-P520-payload-comparison.md)
+- [Phase 2D-4 P500 stopping report](../../p500/analysis/P500-string-reference-analysis.md)
 
 ### External sources
 

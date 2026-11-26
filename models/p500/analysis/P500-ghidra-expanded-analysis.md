@@ -136,4 +136,4 @@ Because string xrefs are unresolved and the image base remains unknown, follow-u
 
 ## P510 boundary
 
-The owner-observed **Nikon COOLPIX P510 Firmware Version 1.0** remains **CONFIRMED** and is recorded separately in [P510-physical-camera-observations.md](P510-physical-camera-observations.md). No P500 result here is transferred to the P510. The P510 was not updated, dumped, connected, or contacted.
+The owner-observed **Nikon COOLPIX P510 Firmware Version 1.0** remains **CONFIRMED** and is recorded separately in [P510-physical-camera-observations.md](../../p510/analysis/P510-physical-camera-observations.md). No P500 result here is transferred to the P510. The P510 was not updated, dumped, connected, or contacted.

@@ -28,10 +28,10 @@ Relevant records include:
 - [P510 firmware-acquisition research](P510-firmware-acquisition-research.md)
 - [P510 known facts](P510-known-facts.md) and [physical-camera observations](P510-physical-camera-observations.md)
 - [P510 disc/manual analysis](P510-disc-manual-analysis.md) and [reference-media hashes](../checksums/P510-reference-media-hashes.txt)
-- [Nikon firmware-tools source audit](nikon-firmware-tools-source-audit.md)
-- [P500/P520 package comparison](P500-P520-comparison.md), [payload comparison](P500-P520-payload-comparison.md), and [payload analyses](P500-payload-analysis.md) and [P520-payload-analysis.md](P520-payload-analysis.md)
+- [Nikon firmware-tools source audit](../../../common/tools/nikon-firmware-tools-source-audit.md)
+- [P500/P520 package comparison](../../../comparisons/P500-P520-comparison.md), [payload comparison](../../../comparisons/P500-P520-payload-comparison.md), and [payload analyses](../../p500/analysis/P500-payload-analysis.md) and [P520-payload-analysis.md](../../p520/analysis/P520-payload-analysis.md)
 - [Phase 3C-5B physical GetDeviceInfo report](P510-Phase3C5B-physical-GetDeviceInfo.md), [Phase 3C-6](P510-Phase3C6-DeviceInfo-analysis.md), [Phase 3C-7](P510-Phase3C7-offline-source-reconciliation.md), and [Phase 3C-8](P510-Phase3C8-unresolved-code-correlation.md)
-- [NX Studio P510 findings](../reference-media/analysis/NX-Studio/NX-Studio-P510-findings.md), [NX Studio static analysis](../reference-media/analysis/NX-Studio/NX-Studio-static-analysis.md), and [installer hashes](../checksums/NX-Studio-installer-hashes.txt)
+- [NX Studio P510 findings](NX-Studio-P510-findings.md), [NX Studio static analysis](../../../common/reference-media/NX-Studio-static-analysis.md), and [installer hashes](../../../common/checksums/NX-Studio-installer-hashes.txt)
 
 The project inventory contains no saved archived Nikon HTML, P510 firmware URL list, P510 updater, P510 firmware payload, or third-party P510 firmware binary. The existing scripts are a constrained `GetDeviceInfo` client and its offline validator; neither implements storage, memory, or firmware retrieval. The local tools directory and backups directory are empty. No separate ViewNX 2 installer is present.
 

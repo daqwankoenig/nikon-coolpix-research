@@ -50,4 +50,4 @@ The P500 has a stronger RAW/NRW lead than isolated strings alone: a RAW-named ro
 **P500 reference conclusion:** a possible RAW/NRW-related data or processing path exists.  
 **P510 conclusion:** unknown; no P510 firmware evidence supports a RAW path or capture capability.
 
-See the [callgraph](P510-Phase5B-P500-RAW-callgraph.md), [buffer analysis](P510-Phase5B-P500-RAW-buffer-analysis.md), [NRW file-path analysis](P510-Phase5B-P500-NRW-file-path.md), [Phase 5A baseline](P510-Phase5A-RAW-architecture-analysis.md), and the [targeted Ghidra trace log](ghidra-logs/P500-Phase5B-extended-trace.log).
+See the [callgraph](P510-Phase5B-P500-RAW-callgraph.md), [buffer analysis](P510-Phase5B-P500-RAW-buffer-analysis.md), [NRW file-path analysis](P510-Phase5B-P500-NRW-file-path.md), [Phase 5A baseline](P510-Phase5A-RAW-architecture-analysis.md), and the [targeted Ghidra trace log](../../p500/analysis/ghidra-logs/P500-Phase5B-extended-trace.log).

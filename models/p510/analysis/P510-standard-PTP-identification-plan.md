@@ -13,7 +13,7 @@
 - The execute call initiates an MTP command/data transaction. The read and end calls continue and complete that transfer; they are not documented as separate PTP operations. The exact wire behavior for an attempted `0x1001`, including acceptance, session handling, and any hidden traffic, is not established.
 - `IPortableDevice::Close` closes the WPD connection. Microsoft does not specify whether a given driver sends PTP `CloseSession (0x1003)` or other device traffic when it closes.
 - PTP `GetDeviceInfo (0x1001)` is a standard, zero-parameter, device-to-host operation that can be sent before `OpenSession` under PTP. Do **not** open a session just to request it. Some devices may not tolerate a pre-session request; on an error, stop without retrying through another opcode.
-- The locally available `nikon-firmware-tools` source contains no WPD transport implementation. Its transport DLLs are opaque and its NikonDump path is unsuitable; see [nikon-firmware-tools-source-audit.md](nikon-firmware-tools-source-audit.md). The checked-in emulator/IDA references are not Windows WPD driver source and do not resolve this transport.
+- The locally available `nikon-firmware-tools` source contains no WPD transport implementation. Its transport DLLs are opaque and its NikonDump path is unsuitable; see [nikon-firmware-tools-source-audit.md](../../../common/tools/nikon-firmware-tools-source-audit.md). The checked-in emulator/IDA references are not Windows WPD driver source and do not resolve this transport.
 
 ## WPD call-path findings
 
@@ -149,4 +149,4 @@ Phase 3C approval requires zero Nikon vendor operations; zero writes or write-ca
 - [Microsoft: `Get-PnpDevice`](https://learn.microsoft.com/en-us/powershell/module/pnpdevice/get-pnpdevice?view=windowsserver2025-ps) and [`Get-PnpDeviceProperty`](https://learn.microsoft.com/en-us/powershell/module/pnpdevice/get-pnpdeviceproperty?view=windowsserver2025-ps) — Windows PnP enumeration/property queries.
 - [Microsoft: `DEVPKEY_Device_HardwareIds`](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/devpkey-device-hardwareids), [`DEVPKEY_Device_BusReportedDeviceDesc`](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/devpkey-device-busreporteddevicedesc), and [Compatible IDs](https://learn.microsoft.com/en-us/windows-hardware/drivers/install/devpkey-device-compatibleids) — Windows PnP identifiers and reported descriptions.
 - [libgphoto2 PTP implementation](https://github.com/gphoto/libgphoto2/blob/master/camlibs/ptp2/ptp.c) — implementation reference for no-parameter `GetDeviceInfo` and pre-session use; not evidence for the P510 or Windows WPD transport.
-- [Nikon firmware-tools source audit](nikon-firmware-tools-source-audit.md) — local-source availability and opaque transport dependencies.
+- [Nikon firmware-tools source audit](../../../common/tools/nikon-firmware-tools-source-audit.md) — local-source availability and opaque transport dependencies.

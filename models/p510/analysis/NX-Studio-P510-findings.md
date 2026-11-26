@@ -6,7 +6,7 @@ The NX Studio investigation is paused at the user's direction. Do not spend addi
 
 The accessible installer layer did not expose a P510 model database, USB VID/PID, PTP definitions, firmware binaries, or camera communication libraries. The main application payload was not accessible through the current read-only 7-Zip inspection. **Absence of P510 information in the inspected launcher is not evidence that NX Studio itself lacks P510 or Nikon camera definitions.**
 
-**CONFIRMED by separate owner observation:** The physical P510 displays Firmware Version 1.0 in its Firmware version menu. This is not a finding from NX Studio and does not establish an internal build identifier, processor architecture, neighboring-model compatibility, or whether a newer P510 release exists. The camera must remain on Version 1.0; no update, dump, connection, or reverse-engineering communication is authorized. See [P510-physical-camera-observations.md](../../../analysis/P510-physical-camera-observations.md).
+**CONFIRMED by separate owner observation:** The physical P510 displays Firmware Version 1.0 in its Firmware version menu. This is not a finding from NX Studio and does not establish an internal build identifier, processor architecture, neighboring-model compatibility, or whether a newer P510 release exists. The camera must remain on Version 1.0; no update, dump, connection, or reverse-engineering communication is authorized. See [P510-physical-camera-observations.md](P510-physical-camera-observations.md).
 
 ## Summary
 

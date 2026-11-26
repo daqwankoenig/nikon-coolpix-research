@@ -42,4 +42,4 @@ The expanded P500 inventory's offset-mapped analysis reported no code xrefs for 
 
 P500 supports **manual-focus and AF-area UI/control leads**, but not a traced AF metric, edge/detail focus signal, or focus-peaking rendering path. P510 focus and edge processing remain unknown.
 
-References: [P500 string-reference analysis](P500-string-reference-analysis.md), [P500 expanded Ghidra analysis](P500-ghidra-expanded-analysis.md), and [P500 expanded inventory](ghidra-logs/P500-expanded-inventory.log).
+References: [P500 string-reference analysis](../../p500/analysis/P500-string-reference-analysis.md), [P500 expanded Ghidra analysis](../../p500/analysis/P500-ghidra-expanded-analysis.md), and [P500 expanded inventory](../../p500/analysis/ghidra-logs/P500-expanded-inventory.log).

@@ -1,6 +1,6 @@
 # P500 Ghidra Preparation — Phase 2A
 
-> **Phase 2B update:** Following explicit approval, Ghidra 12.2 and Temurin JDK 25.0.5+8 were downloaded from official sources, SHA-256 verified, and extracted under `C:\GitHub\Tools\`. The current installation and launch record is in [tool-installation-record.md](./tool-installation-record.md). This supersedes the proposed C:\Tools paths and commands below.
+> **Phase 2B update:** Following explicit approval, Ghidra 12.2 and Temurin JDK 25.0.5+8 were downloaded from official sources, SHA-256 verified, and extracted under `C:\GitHub\Tools\`. The current installation and launch record is in [tool-installation-record.md](../../../common/tools/tool-installation-record.md). This supersedes the proposed C:\Tools paths and commands below.
 
 ## Readiness inspection
 

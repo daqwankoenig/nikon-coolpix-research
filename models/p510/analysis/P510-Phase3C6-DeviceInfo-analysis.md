@@ -232,6 +232,6 @@ Phase 3C-7 is **recommended only** and was not executed. No additional physical 
 
 - [P510 Phase 3C-5B physical report](P510-Phase3C5B-physical-GetDeviceInfo.md), [transport log](P510-GetDeviceInfo-transport.log), [raw payload](P510-GetDeviceInfo.raw.bin), and [decoded text](P510-GetDeviceInfo-decoded.txt).
 - [P510 known facts](P510-known-facts.md), [P510 physical observations](P510-physical-camera-observations.md), [manual analysis](P510-disc-manual-analysis.md), and [firmware-acquisition research](P510-firmware-acquisition-research.md).
-- [Phase 3C-4 PTP transport research](P510-Phase3C4-PTP-transport-research.md), [Phase 3C-5A client design](P510-Phase3C5A-client-design.md), [Nikon firmware-tools source audit](nikon-firmware-tools-source-audit.md), and [P500 string-reference analysis](P500-string-reference-analysis.md).
-- [P520 payload analysis](P520-payload-analysis.md) and [P500/P520 comparison](P500-P520-comparison.md); both are reference material only.
+- [Phase 3C-4 PTP transport research](P510-Phase3C4-PTP-transport-research.md), [Phase 3C-5A client design](P510-Phase3C5A-client-design.md), [Nikon firmware-tools source audit](../../../common/tools/nikon-firmware-tools-source-audit.md), and [P500 string-reference analysis](../../p500/analysis/P500-string-reference-analysis.md).
+- [P520 payload analysis](../../p520/analysis/P520-payload-analysis.md) and [P500/P520 comparison](../../../comparisons/P500-P520-comparison.md); both are reference material only.
 - Local audited source: `C:\GitHub\Tools\nikon-firmware-tools\USB\wireshark\release\wireshark_usb_ptp_20130305.patch` and `C:\GitHub\Tools\nikon-firmware-tools\IDA_files\D7000\105\ptp_code_names.idc`. These are source-code references, not P510 behavior evidence.

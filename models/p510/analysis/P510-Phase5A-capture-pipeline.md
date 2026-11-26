@@ -50,8 +50,8 @@ This does not prove that the P510 cannot produce RAW data. It also does not esta
 
 - [P510-Phase5A-RAW-architecture-analysis.md](P510-Phase5A-RAW-architecture-analysis.md)
 - [P510-Phase5A-RAW-string-and-code-references.md](P510-Phase5A-RAW-string-and-code-references.md)
-- [P500 string-reference analysis](P500-string-reference-analysis.md)
-- [P500 expanded Ghidra analysis](P500-ghidra-expanded-analysis.md)
-- [P500 section map](P500-section-map.md)
-- [P520 payload analysis](P520-payload-analysis.md)
+- [P500 string-reference analysis](../../p500/analysis/P500-string-reference-analysis.md)
+- [P500 expanded Ghidra analysis](../../p500/analysis/P500-ghidra-expanded-analysis.md)
+- [P500 section map](../../p500/analysis/P500-section-map.md)
+- [P520 payload analysis](../../p520/analysis/P520-payload-analysis.md)
 - [P510 Phase 3C DeviceInfo analysis](P510-Phase3C6-DeviceInfo-analysis.md)

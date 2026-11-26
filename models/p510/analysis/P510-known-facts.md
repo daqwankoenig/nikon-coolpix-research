@@ -31,7 +31,7 @@ The following is the current P500 stopping point, recorded for reference and exp
 - No tested runtime image base produced exact string-pointer resolution. `0x57E70000` remains only **PLAUSIBLE**. `0x57EA0000` is associated with writable zero-fill memory and is not supported as the firmware image base.
 - Rebase is **NOT justified**. Broad P500 firmware reverse engineering is **PAUSED** at Phase 2D-4.
 - Phase 3C-8's SHA-256-verified, read-only scan found a P500 code/pointer sequence at `P500-NPROG-primary.bin` file offset `0x006AD594`: `0xD303` is paired with an initializer at `0x00132F50`, and `0xD280` with one at `0x0013355C`. Both routines write their code IDs at structure offset `+0xB0` and literal `2` at `+0xB2`. This is P500-only evidence suggestive of property/descriptor registration; it does not establish either semantic meaning, a confirmed data type, or P510 behavior. See [Phase 3C-8 unresolved-code correlation](P510-Phase3C8-unresolved-code-correlation.md).
-- The complete record is [P500-string-reference-analysis.md](P500-string-reference-analysis.md).
+- The complete record is [P500-string-reference-analysis.md](../../p500/analysis/P500-string-reference-analysis.md).
 
 ## HYPOTHESIS
 

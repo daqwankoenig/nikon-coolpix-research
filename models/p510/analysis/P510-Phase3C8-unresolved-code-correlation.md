@@ -50,7 +50,7 @@ Reviewed local evidence included:
 
 1. [Phase 3C-5B physical report](P510-Phase3C5B-physical-GetDeviceInfo.md), raw and decoded DeviceInfo, [known facts](P510-known-facts.md), and the [Phase 3C-6 analysis](P510-Phase3C6-DeviceInfo-analysis.md) and [Phase 3C-7 reconciliation](P510-Phase3C7-offline-source-reconciliation.md).
 2. The local Nikon Wireshark PTP patch and D7000/D5100 IDA helpers already identified in Phase 3C-7; the source audit and client/transport research were also consulted.
-3. [P500 string-reference analysis](P500-string-reference-analysis.md), [P500 section map](P500-section-map.md), [P500 container map](P500-container-map.md), [P500/P520 payload comparison](P500-P520-payload-comparison.md), and [P520 payload analysis](P520-payload-analysis.md).
+3. [P500 string-reference analysis](../../p500/analysis/P500-string-reference-analysis.md), [P500 section map](../../p500/analysis/P500-section-map.md), [P500 container map](../../p500/analysis/P500-container-map.md), [P500/P520 payload comparison](../../../comparisons/P500-P520-payload-comparison.md), and [P520 payload analysis](../../p520/analysis/P520-payload-analysis.md).
 4. All locally available P500/P520 extracted `.bin` files and the two local Nikon updater `.exe` packages. The `.exe` files were treated as data only and not executed.
 
 The exact-code search covered case and prefix variants (`0x90A1`/`90A1`/`0x90a1`/`90a1`, and equivalent forms for the other five codes), raw little- and big-endian 16-bit byte pairs, exact 32-bit forms in both byte orders, ASCII strings, and UTF-16LE strings. Raw-byte scans used no-Unicode mode so high-byte escapes were not transformed into UTF-8. A byte match by itself was not treated as semantic evidence.

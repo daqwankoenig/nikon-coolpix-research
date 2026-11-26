@@ -8,7 +8,7 @@ Offsets below are the recorded P500 NPROG-primary section/file offsets. No runti
 
 | Offset | Exact string | Existing evidence | Interpretation limit |
 |---:|---|---|---|
-| `0x00614818` | `ERROR 3 : RAW READ ERROR!!` | The [P500 string-reference analysis](P500-string-reference-analysis.md) records a selected literal-pool reference at `0x1CF984`; a coherent conditional path loads the message and calls `0x537BB0`. Nearby messages concern buffer-size, status, folder, and file-read errors. | Supports a P500 RAW-read/error-handling code path. The called routine's purpose and the input/output data are unknown; this is not sensor-acquisition or file-creation proof. |
+| `0x00614818` | `ERROR 3 : RAW READ ERROR!!` | The [P500 string-reference analysis](../../p500/analysis/P500-string-reference-analysis.md) records a selected literal-pool reference at `0x1CF984`; a coherent conditional path loads the message and calls `0x537BB0`. Nearby messages concern buffer-size, status, folder, and file-read errors. | Supports a P500 RAW-read/error-handling code path. The called routine's purpose and the input/output data are unknown; this is not sensor-acquisition or file-creation proof. |
 | `0x00646216` | `ADDRESS_THUMBYUV2 %x JpegBuffer_TopAddrW() %x Buffer = %d byte` | Found in the P500 expanded inventory. | A JPEG-buffer diagnostic string; no buffer object/address allocation or encoder call chain was mapped. |
 | `0x00666D78` | `RAW_MODE=` | Found in the P500 expanded inventory. | RAW-related text; no associated option table or code path identified here. |
 | `0x00666F40` | ` -RAW DATA INFO- ACQUSITION SIZE(No.%d) (H,V) = (%5d,%5d)` | Found in the P500 expanded inventory. | Indicates RAW-related acquisition-size diagnostics; does not identify a buffer, sensor interface, or pixel data path. |
@@ -42,7 +42,7 @@ The `JpegBuffer_TopAddrW()` text is a diagnostic mention, not a recovered buffer
 
 ## P500 resource signatures
 
-The P500 `NDATA` section contains repeated JPEG SOI-like byte patterns and printable JPEG-table-like fragments. The existing [section map](P500-section-map.md) classifies these as probable resource/data content and explicitly says they were not carved, parsed, or validated as complete JPEG files. They are not evidence of a JPEG encoder path.
+The P500 `NDATA` section contains repeated JPEG SOI-like byte patterns and printable JPEG-table-like fragments. The existing [section map](../../p500/analysis/P500-section-map.md) classifies these as probable resource/data content and explicitly says they were not carved, parsed, or validated as complete JPEG files. They are not evidence of a JPEG encoder path.
 
 ## P520 search result
 
@@ -60,8 +60,8 @@ The P510 DeviceInfo response advertises empty `CaptureFormats` and `ImageFormats
 
 ## Sources
 
-- [P500 expanded Ghidra analysis](P500-ghidra-expanded-analysis.md)
-- [P500 string-reference analysis](P500-string-reference-analysis.md)
-- [P500 section map](P500-section-map.md)
-- [P520 payload analysis](P520-payload-analysis.md)
+- [P500 expanded Ghidra analysis](../../p500/analysis/P500-ghidra-expanded-analysis.md)
+- [P500 string-reference analysis](../../p500/analysis/P500-string-reference-analysis.md)
+- [P500 section map](../../p500/analysis/P500-section-map.md)
+- [P520 payload analysis](../../p520/analysis/P520-payload-analysis.md)
 - [P510 Phase 3C DeviceInfo analysis](P510-Phase3C6-DeviceInfo-analysis.md)

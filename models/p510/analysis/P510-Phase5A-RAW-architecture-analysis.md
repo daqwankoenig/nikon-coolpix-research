@@ -86,11 +86,11 @@ This classification reflects P500 reference strings and one code-linked RAW-read
 
 ## References
 
-- [P500 string-reference analysis](P500-string-reference-analysis.md)
-- [P500 section map](P500-section-map.md)
-- [P500 expanded Ghidra analysis](P500-ghidra-expanded-analysis.md)
-- [P500 payload analysis](P500-payload-analysis.md)
-- [P500/P520 package comparison](P500-P520-comparison.md)
-- [P520 payload analysis](P520-payload-analysis.md)
+- [P500 string-reference analysis](../../p500/analysis/P500-string-reference-analysis.md)
+- [P500 section map](../../p500/analysis/P500-section-map.md)
+- [P500 expanded Ghidra analysis](../../p500/analysis/P500-ghidra-expanded-analysis.md)
+- [P500 payload analysis](../../p500/analysis/P500-payload-analysis.md)
+- [P500/P520 package comparison](../../../comparisons/P500-P520-comparison.md)
+- [P520 payload analysis](../../p520/analysis/P520-payload-analysis.md)
 - [P510 Phase 3C DeviceInfo analysis](P510-Phase3C6-DeviceInfo-analysis.md)
 - [P510 Phase 4 final status](P510-Phase4-final-status.md)
