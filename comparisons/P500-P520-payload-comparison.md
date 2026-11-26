@@ -19,7 +19,7 @@ These are extracted reference payloads for neighboring camera models only. They 
 
 ## CONFIRMED — First-level structure and headers
 
-- P500 begins with a readable multi-field header: `LENGTH=7471104 SG583 VER=v583-80 DVR=1.10 SUM=765951917 NPROG NDATA NLIPI SFIRM`. Further `NPROG`, `NDATA`, `NLIPI`, and `SFIRM` records appear at offsets documented in `analysis/P500-payload-analysis.md`.
+- P500 begins with a readable multi-field header: `LENGTH=7471104 SG583 VER=v583-80 DVR=1.10 SUM=765951917 NPROG NDATA NLIPI SFIRM`. Further `NPROG`, `NDATA`, `NLIPI`, and `SFIRM` records appear at offsets documented in `models/p500/analysis/P500-payload-analysis.md`.
 - P520 begins with `P520`, zero padding, and ` Ver.1.1` at offset `0x10`; bytes from `0x20` onward are high-entropy.
 - The payloads have no common initial byte: the first byte is `L` in P500 and `P` in P520. Their first 512 bytes differ.
 - P500's visible records and code-like region provide evidence for multiple internal sections. P520 has no verified internal component boundaries from this read-only scan.

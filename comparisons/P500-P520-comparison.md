@@ -11,7 +11,7 @@ Both files are neighboring-model reference packages only. Neither is P510 firmwa
 
 - P500 SHA-1: `AED92F1D9D7F1C7DB7C8809B6D59B2AC5B828E0A`; MD5: `DFD458DF65A53F2D38DEA2FD9F2C8A2F` (identification/comparison only).
 - P520 SHA-1: `BC705FB5E8B385AC4B309B6CBC6BF3D716FE774E`; MD5: `C3CCFB11851216743C935984C97EE07F` (identification/comparison only).
-- Full hash records are in `checksums/P500-reference-hashes.txt` and `checksums/P520-reference-hashes.txt`.
+- Full hash records are in `models/p500/checksums/P500-reference-hashes.txt` and `models/p520/checksums/P520-reference-hashes.txt`.
 
 ## CONFIRMED — Container/header similarities and differences
 
@@ -51,7 +51,7 @@ Both files are neighboring-model reference packages only. Neither is P510 firmwa
 - Whole-file Shannon entropy is 7.996450 bits/byte for P500 and 7.999882 bits/byte for P520.
 - Across 1 MiB windows, P500 has 5 windows (min 7.954648, max 7.999218, mean 7.990187); P520 has 72 windows (min 7.964002, max 7.999820, mean 7.998985).
 - Both contain RAR4 markers at the PE overlay. P500 also contains a `BZh` sequence at `0x384327`.
-- P520 has gzip-, bzip2-, Zstandard-, JPEG-, and LHA-like signature sequences at offsets listed in `analysis/P520-initial-analysis.md`; they have not been validated as separate streams or files.
+- P520 has gzip-, bzip2-, Zstandard-, JPEG-, and LHA-like signature sequences at offsets listed in `models/p520/analysis/P520-initial-analysis.md`; they have not been validated as separate streams or files.
 - The PE OptionalHeader checksum values are fields in the Windows wrappers, not verified checksums for the contained firmware. Installer strings mention CRC errors, but no archive-member CRC was checked.
 
 ## LIKELY — Interpretation
