@@ -5,7 +5,8 @@ These instructions apply to every camera model in this repository. Full rules ar
 ## Scope
 
 - This project is for firmware and hardware research on the Nikon COOLPIX models listed in `README.md` (currently P510, P520, and P500).
-- Physical-camera actions apply only to cameras the project owner has explicitly approved for that action. Approval for one camera does not cover another camera.
+- Physical-camera testing does not require written justification.
+- Physical-camera testing is at Daqwan's discretion.
 - Findings are model-scoped. A fact about one model is only a hypothesis for another model until independently confirmed.
 
 ## Firmware handling
@@ -24,6 +25,8 @@ These instructions apply to every camera model in this repository. Full rules ar
 - Reference firmware may be analyzed to understand Nikon firmware packaging, headers, compression, filesystem structure, architecture, checksums, naming conventions, and update mechanisms.
 - Label all conclusions about a model that are based on neighboring models as hypotheses until confirmed from that model's hardware or actual firmware.
 - Before modifying any firmware binary, create a verified backup.
+- Never perform destructive operations on original firmware.
+- Prefer read-only static analysis before any modification.
 
 ## File locations
 
@@ -50,8 +53,6 @@ These instructions apply to every camera model in this repository. Full rules ar
 ## Safety and approvals
 
 - Do not flash firmware to any camera unless I explicitly approve that step.
-- Do not communicate with any camera over USB unless I explicitly approve it.
-- Physical-camera testing does not require written justification. Each proposed action still needs specific prior approval, and approval for one model does not cover another model.
 - Ask for approval before installing software, cloning repositories, downloading tools, or executing unfamiliar third-party code.
 - When executing a command that could modify firmware or interact with hardware, explain the command and affected files first.
 - Users supply their own firmware. Nothing from Nikon is committed to the repository.
@@ -61,5 +62,5 @@ These instructions apply to every camera model in this repository. Full rules ar
 ## Adding a new model
 
 - Follow the "Adding a new model" steps in `RESEARCH-RULES.md`.
-- A new model starts with every physical-camera action blocked until I approve it.
+- A new model's physical-camera status is tracked in its `safety-status.md`.
 - Once a capability is adopted, track it for every model.

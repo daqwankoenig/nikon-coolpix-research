@@ -43,7 +43,7 @@ Users supply their own firmware. It is stored only in the user's local, ignored 
 - `firmware/original/<MODEL>/`: untouched, authentic firmware for that model.
 - `firmware/reference/<MODEL>/`: reference samples and updaters.
 - `firmware/extracted/<MODEL>/`: extracted payloads and sections.
-- `firmware/modified/<MODEL>/`: experimental modifications, only if ever separately authorized.
+- `firmware/modified/<MODEL>/`: experimental modifications.
 
 Rules:
 
@@ -57,22 +57,22 @@ Rules:
 
 ## Physical-camera safety
 
-Physical-camera testing does not require written justification. Authorization for one operation does not authorize other operations, and authorization for one model does not carry over to another.
+Physical-camera testing does not require written justification. Testing is at Daqwan's discretion.
 
-Do not connect to, communicate with, open, probe, modify, or flash a camera without specific prior approval for the proposed action. Codespaces is not a physical-camera test environment.
+Codespaces is not a physical-camera test environment.
 Every tool must include a risk/brick warning.
 
 ### Current status
 
 | Action | P510 | P520 | P500 |
 |---|---|---|---|
-| Working hardware investigation | **NOT APPROVED** | Not assessed | Not assessed |
-| Unknown PTP command execution | **NOT APPROVED** | Not assessed | Not assessed |
+| Working hardware investigation | **NOT PLANNED** | Not assessed | Not assessed |
+| Unknown PTP command execution | **NOT PLANNED** | Not assessed | Not assessed |
 | Firmware modification | **BLOCKED** | **BLOCKED** | **BLOCKED** |
 | Firmware flashing | **BLOCKED** | **BLOCKED** | **BLOCKED** |
 | Donor acquisition | **DEFERRED** | Not assessed | Not assessed |
 
-A model that is newly added starts with every physical-camera action blocked until it is explicitly assessed and approved. Each model's own status is kept in its `safety-status.md`.
+Each model's own physical-camera status is kept in its `safety-status.md`.
 
 ## Project hygiene and redistribution
 
@@ -89,7 +89,7 @@ A model that is newly added starts with every physical-camera action blocked unt
 2. Add the model to the status table in `README.md` and to `PROJECT-MANIFEST.md`.
 3. Add a row for every adopted capability in `docs/standards/goals.md` to the model's `goals.md`, starting Built in? and Unlock at **Unknown**.
 4. Create `firmware/original/<MODEL>/` and the other firmware subfolders locally. They are ignored by Git.
-5. Record the model's safety status. All physical-camera actions start **BLOCKED** or **Not assessed** until approved.
+5. Record the model's physical-camera status.
 6. Add a model label for GitHub issues.
 
 See [PROJECT-MANIFEST.md](PROJECT-MANIFEST.md) for the current inventory, preservation decisions, and excluded-artifact records.

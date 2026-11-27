@@ -1,11 +1,11 @@
 # P510 safety status
 
-Physical-camera testing does not require written justification. Each proposed action still needs specific prior approval; approval for one action does not approve any other action, and approval for another model does not apply here. See [RESEARCH-RULES.md](../../RESEARCH-RULES.md).
+Physical-camera testing does not require written justification. Testing is at Daqwan's discretion. See [RESEARCH-RULES.md](../../RESEARCH-RULES.md).
 
 | Action | Status |
 |---|---|
-| Working hardware investigation | **NOT APPROVED** |
-| Unknown PTP command execution | **NOT APPROVED** |
+| Working hardware investigation | **NOT PLANNED** |
+| Unknown PTP command execution | **NOT PLANNED** |
 | Firmware modification | **BLOCKED** |
 | Firmware flashing | **BLOCKED** |
 | Donor camera acquisition | **DEFERRED** |

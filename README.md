@@ -71,17 +71,17 @@ Firmware container, section, payload, and Ghidra analysis notes are in [models/p
 
 ## Safety status
 
-Physical-camera communication always requires explicit authorization. See [RESEARCH-RULES.md](RESEARCH-RULES.md).
+Physical-camera testing does not require written justification. Testing is at Daqwan's discretion. See [RESEARCH-RULES.md](RESEARCH-RULES.md).
 
 | Action | P510 | P520 | P500 |
 |---|---|---|---|
-| Working hardware investigation | NOT APPROVED | Not assessed | Not assessed |
-| Unknown PTP commands | NOT APPROVED | Not assessed | Not assessed |
+| Working hardware investigation | NOT PLANNED | Not assessed | Not assessed |
+| Unknown PTP commands | NOT PLANNED | Not assessed | Not assessed |
 | Firmware modification | BLOCKED | BLOCKED | BLOCKED |
 | Firmware flashing | BLOCKED | BLOCKED | BLOCKED |
 | Donor camera acquisition | DEFERRED | Not assessed | Not assessed |
 
-Any new model starts with all physical-camera actions blocked until they are explicitly assessed and authorized.
+Each model's physical-camera status is recorded in its `safety-status.md`.
 
 ## Repository layout
 
@@ -106,6 +106,6 @@ This project is published so other researchers can verify, reuse, and continue C
 
 ## Repository and Codespaces
 
-GitHub Codespaces is intended for documentation, C source inspection and building, hash validation, and offline analysis. It cannot replace a local WSL/usbipd environment for physical USB work. No camera-control packages are installed or configured. Any later physical-camera interaction remains local-only and separately authorized.
+GitHub Codespaces is intended for documentation, C source inspection and building, hash validation, and offline analysis. It cannot replace a local WSL/usbipd environment for physical USB work. No camera-control packages are installed or configured. Any later physical-camera interaction remains local-only.
 
 See `.devcontainer/devcontainer.json` for the minimal C/research environment and `.gitignore` for the preservation and redistribution exclusions.

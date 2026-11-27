@@ -75,9 +75,8 @@ Absence from a manual alone caps the evidence label at **STRONGLY SUPPORTED HYPO
 - Do not treat one model's findings as another model's facts without
   independent evidence for that model.
 - Do not submit unsupported names or interpretations for unknown Nikon codes.
-- Physical-camera testing does not require written justification. Each
-  proposed action still needs specific prior approval, as recorded in that
-  model's `safety-status.md`; approval does not carry across actions or models.
+- Physical-camera testing does not require written justification.
+- Physical-camera testing is at Daqwan's discretion.
 - Do not flash firmware unless the repository owner explicitly approves it.
 - Every tool must include a risk/brick warning.
 

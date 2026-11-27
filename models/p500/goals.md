@@ -4,6 +4,8 @@ The master list is [docs/standards/goals.md](../../docs/standards/goals.md).
 
 The P500 is used as a reference model: its firmware analysis supplies evidence for other models. It is not currently a target for the goals below.
 
+Role: Reference only (not a research target).
+
 | ID | Capability | Built in? | Unlock | Evidence label | Evidence basis | Evidence | Blocker or reason | Next step |
 |---|---|---|---|---|---|---|---|---|
 | CAP-001 | RAW capture | Unknown | Unknown | HYPOTHESIS | [TO BE FILLED] | Evidence supporting a possible RAW/NRW-related path is recorded in [P510-Phase5B-P500-NRW-file-path.md](../p510/analysis/P510-Phase5B-P500-NRW-file-path.md). | Reference model, not a target. | None planned. |
