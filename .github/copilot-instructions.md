@@ -1,6 +1,6 @@
 # Nikon COOLPIX Firmware Research Rules
 
-These instructions apply to every camera model in this repository. Full rules are in `RESEARCH-RULES.md`. The shared goals are in `docs/standards/goals.md`.
+These instructions apply to every camera model in this repository. Full rules are in `RESEARCH-RULES.md`. The shared capability catalog and adopted goals are in `docs/standards/capability-vocabulary.md` and `docs/standards/goals.md`.
 
 ## Scope
 
@@ -24,8 +24,6 @@ These instructions apply to every camera model in this repository. Full rules ar
 - Reference firmware may be analyzed to understand Nikon firmware packaging, headers, compression, filesystem structure, architecture, checksums, naming conventions, and update mechanisms.
 - Label all conclusions about a model that are based on neighboring models as hypotheses until confirmed from that model's hardware or actual firmware.
 - Before modifying any firmware binary, create a verified backup.
-- Never perform destructive operations on original firmware.
-- Prefer read-only static analysis before any modification.
 
 ## File locations
 
@@ -42,19 +40,26 @@ These instructions apply to every camera model in this repository. Full rules ar
 
 - Clearly distinguish confirmed findings, assumptions, and unknowns, using the labels in `RESEARCH-RULES.md`.
 - Name the model for every finding.
+- For each capability, record Built in? (Native / Partial / Not native / Unknown), Unlock (Not needed / Unknown / Not possible / Possible / Achieved), evidence label, and evidence basis (Manual only / Observed on camera / Both).
+- Absence from a manual alone caps the evidence label at STRONGLY SUPPORTED HYPOTHESIS.
+- A finding about one model is never a fact about another model. If it might apply elsewhere, record it on the other model as HYPOTHESIS (from <MODEL> finding <ID>) and link the source. It becomes CONFIRMED only after evidence is gathered on that model itself.
+- Nothing is CONFIRMED without Daqwan's approval.
 - Do not assume a tool supports a COOLPIX model simply because it supports another Nikon camera.
+- Every tool must include a risk/brick warning.
 
 ## Safety and approvals
 
 - Do not flash firmware to any camera unless I explicitly approve that step.
 - Do not communicate with any camera over USB unless I explicitly approve it.
-- Do not bypass cryptographic signatures, secure boot, access controls, or anti-tamper protections.
+- Physical-camera testing does not require written justification. Each proposed action still needs specific prior approval, and approval for one model does not cover another model.
 - Ask for approval before installing software, cloning repositories, downloading tools, or executing unfamiliar third-party code.
 - When executing a command that could modify firmware or interact with hardware, explain the command and affected files first.
-- Never commit firmware, installers, manuals, or third-party images. Record hashes, provenance, and notes instead.
+- Users supply their own firmware. Nothing from Nikon is committed to the repository.
+- Contributors may submit their own photos and files of their own camera with a statement that they own them and agree to the repository's MIT license. Remove hidden data (location, serial number) first.
+- Do not submit any photo or file made by someone else. Record only the hash, size, source URL, and provenance.
 
 ## Adding a new model
 
 - Follow the "Adding a new model" steps in `RESEARCH-RULES.md`.
 - A new model starts with every physical-camera action blocked until I approve it.
-- Once a goal exists for any model, track it for every model.
+- Once a capability is adopted, track it for every model.

@@ -50,6 +50,7 @@ Rules:
 - `firmware/original/<MODEL>/` stays empty until authentic firmware for that model is obtained or dumped. Never place another model's firmware there.
 - Never modify or overwrite anything in `firmware/original/`.
 - Calculate and record SHA-256 before working with any firmware; analyze a separate working copy.
+- Before modifying any firmware binary, create a verified backup.
 - One model's firmware is reference-only for every other model. Never flash it to a different model, copy it into another model's original or modified folders, or treat its code as that model's code.
 - Extracted firmware belongs in `firmware/extracted/<MODEL>/`; experimental modifications belong in `firmware/modified/<MODEL>/`.
 - Nothing from Nikon is committed to the repository.
@@ -65,8 +66,8 @@ Every tool must include a risk/brick warning.
 
 | Action | P510 | P520 | P500 |
 |---|---|---|---|
-| Working hardware investigation | **NOT JUSTIFIED** | Not assessed | Not assessed |
-| Unknown PTP command execution | **NOT JUSTIFIED** | Not assessed | Not assessed |
+| Working hardware investigation | **NOT APPROVED** | Not assessed | Not assessed |
+| Unknown PTP command execution | **NOT APPROVED** | Not assessed | Not assessed |
 | Firmware modification | **BLOCKED** | **BLOCKED** | **BLOCKED** |
 | Firmware flashing | **BLOCKED** | **BLOCKED** | **BLOCKED** |
 | Donor acquisition | **DEFERRED** | Not assessed | Not assessed |
@@ -86,7 +87,7 @@ A model that is newly added starts with every physical-camera action blocked unt
 
 1. Copy `templates/model/` to `models/<model>/` and fill in the files.
 2. Add the model to the status table in `README.md` and to `PROJECT-MANIFEST.md`.
-3. Add a row for every goal in `docs/standards/goals.md` to the model's `goals.md`, starting at **Not started**.
+3. Add a row for every adopted capability in `docs/standards/goals.md` to the model's `goals.md`, starting Built in? and Unlock at **Unknown**.
 4. Create `firmware/original/<MODEL>/` and the other firmware subfolders locally. They are ignored by Git.
 5. Record the model's safety status. All physical-camera actions start **BLOCKED** or **Not assessed** until approved.
 6. Add a model label for GitHub issues.

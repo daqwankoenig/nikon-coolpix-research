@@ -75,8 +75,8 @@ Physical-camera communication always requires explicit authorization. See [RESEA
 
 | Action | P510 | P520 | P500 |
 |---|---|---|---|
-| Working hardware investigation | NOT JUSTIFIED | Not assessed | Not assessed |
-| Unknown PTP commands | NOT JUSTIFIED | Not assessed | Not assessed |
+| Working hardware investigation | NOT APPROVED | Not assessed | Not assessed |
+| Unknown PTP commands | NOT APPROVED | Not assessed | Not assessed |
 | Firmware modification | BLOCKED | BLOCKED | BLOCKED |
 | Firmware flashing | BLOCKED | BLOCKED | BLOCKED |
 | Donor camera acquisition | DEFERRED | Not assessed | Not assessed |

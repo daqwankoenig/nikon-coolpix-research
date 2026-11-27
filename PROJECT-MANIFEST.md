@@ -17,7 +17,7 @@ Old file paths used before the 2026-11-26 layout change are mapped to their curr
 | `comparisons/` | Cross-model comparison reports (P500/P520). |
 | `common/` | Shared tool notes, shared checksums (NX Studio), and shared reference-media analysis. |
 | `docs/history/` | Historical records: privacy audit, migration hash manifest, path map. |
-| `docs/standards/` | Shared research standards (in preparation). |
+| `docs/standards/` | Shared research standards: [decisions](docs/standards/decisions.md), [capability vocabulary](docs/standards/capability-vocabulary.md), [goals](docs/standards/goals.md), [steps](docs/standards/steps.md), [model registry](docs/standards/model-registry.md), [model intake](docs/standards/model-intake.md), and [model research order](docs/standards/model-research-order.md). |
 | `firmware/` | **Local only, never committed.** Layout: `original/<MODEL>/`, `reference/<MODEL>/`, `extracted/<MODEL>/`, `modified/<MODEL>/`. |
 
 ## Models in this repository
