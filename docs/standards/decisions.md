@@ -23,3 +23,4 @@ Decisions are recorded here. They are never deleted; superseded decisions remain
 | D-17 | Active | 2026-11-26 | Capability lifecycle (add, adopt, change, retire); Daqwan alone decides adoption. | Simple, single decision-maker. |
 | D-18 | Active | 2026-11-26 | Contributors may submit their own photos/files of their own camera, with an ownership + MIT statement. Nothing from Nikon, nothing from anyone else. | Friendly to contributors, keeps third-party material out. |
 | D-19 | Active | 2026-11-26 | Success: headline = capabilities Achieved; supporting = capabilities resolved (Achieved + Not possible) and % of registered models with a complete sourced matrix. | Serves both purposes of D-01. |
+| D-20 | Active | 2026-11-26 | The per-action prior-approval rule for testing on physical cameras is removed. Testing is at Daqwan's discretion. The backup-before-modifying-firmware rule stays. | Consistent with D-03 and D-04; the backup rule protects the owner's own files. |
