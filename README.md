@@ -6,7 +6,7 @@ Open, evidence-led research into Nikon COOLPIX camera firmware and hardware. The
 
 ## Purpose
 
-This repository is for **research and preservation**. It does not contain Nikon firmware, and it does not authorize camera operations or firmware changes.
+This repository investigates whether locked features can be unlocked on specific COOLPIX models and aims to be a trusted public source on whether each is possible. It is for hobbyists and technical researchers: plain-language summaries come first, with technical details below. It does not contain Nikon firmware; users supply their own firmware.
 
 Goals are shared by all models. Once a goal is approved or planned for any camera, it is tracked for every camera. The current goal list is in [docs/standards/goals.md](docs/standards/goals.md).
 
@@ -27,6 +27,10 @@ New models are added as a new folder under `models/`, following the same structu
 | **G-01 RAW capture** | Blocked (feasibility unknown) | Not started | Reference only |
 | **G-02 Focus peaking** | Blocked (feasibility unknown) | Not started | Reference only |
 | **G-03 Clean HDMI output** | Blocked (feasibility unknown) | Not started | Reference only |
+
+- **Capabilities achieved:** [TO BE FILLED]
+- **Capabilities resolved (Achieved + Not possible):** [TO BE FILLED]
+- **Registered models with a complete, sourced matrix:** [TO BE FILLED]
 
 **Status values:** Not started, In progress, Confirmed, Not possible, Blocked, Not applicable (with a recorded reason), and Reference only (used as evidence for other models, not a target).
 
@@ -67,7 +71,7 @@ Firmware container, section, payload, and Ghidra analysis notes are in [models/p
 
 ## Safety status
 
-Physical-camera communication always requires explicit authorization. Never bypass signatures, access controls, or anti-tamper protections. See [RESEARCH-RULES.md](RESEARCH-RULES.md).
+Physical-camera communication always requires explicit authorization. See [RESEARCH-RULES.md](RESEARCH-RULES.md).
 
 | Action | P510 | P520 | P500 |
 |---|---|---|---|
