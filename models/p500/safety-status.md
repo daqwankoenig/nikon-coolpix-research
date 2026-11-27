@@ -1,6 +1,6 @@
 # P500 safety status
 
-Approval for one action does not approve any other action, and approval for another model does not apply here. See [RESEARCH-RULES.md](../../RESEARCH-RULES.md).
+Physical-camera testing does not require written justification. Each proposed action still needs specific prior approval; approval for one action does not approve any other action, and approval for another model does not apply here. See [RESEARCH-RULES.md](../../RESEARCH-RULES.md).
 
 | Action | Status |
 |---|---|

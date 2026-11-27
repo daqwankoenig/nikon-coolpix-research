@@ -1,38 +1,38 @@
 # Research goals
 
-This is the master list of research goals. Every goal listed here is tracked for **every** model in this repository.
+This is the master list of adopted capabilities. Every adopted capability is tracked for every model in this repository.
 
 ## Rule
 
-Once a goal or feature is approved or planned for any camera model, it is added to this list and tracked for all models. A model that has not started on a goal shows **Not started**.
+A goal is a capability in [capability-vocabulary.md](capability-vocabulary.md) flagged as adopted. One capability is one yes/no test.
 
-## Status values
+## Status fields
 
-| Status | Meaning |
+| Field | Values |
 |---|---|
-| Not started | No work done on this goal for this model. |
-| In progress | Active work with evidence being gathered. |
-| Confirmed | Achieved or verified for this model, with evidence recorded. |
-| Not possible | Shown to be infeasible for this model, with evidence recorded. |
-| Blocked | Cannot proceed until a named blocker is resolved. |
-| Not applicable | The goal does not apply to this model. A reason must be recorded. |
-| Reference only | The model is used as evidence for other models, not as a target. |
+| Built in? | Native / Partial / Not native / Unknown |
+| Unlock | Not needed / Unknown / Not possible / Possible / Achieved |
+| Evidence label | CONFIRMED `<MODEL>` / STRONGLY SUPPORTED HYPOTHESIS / HYPOTHESIS / UNKNOWN |
+| Evidence basis | Manual only / Observed on camera / Both |
 
-## Goals
+Absence from a manual alone caps the evidence label at **STRONGLY SUPPORTED HYPOTHESIS**.
 
-| ID | Goal | Definition of done | Added |
+## Adopted capabilities
+
+| ID | Capability | Definition of done | Added |
 |---|---|---|---|
-| G-01 | RAW capture | A documented, evidence-backed method to capture RAW image data on the model, or a documented reason it is not possible. | 2026-11-26 (existing P510 goal) |
-| G-02 | Focus peaking | A documented, evidence-backed method to display focus peaking on the model, or a documented reason it is not possible. | 2026-11-26 (existing P510 goal) |
-| G-03 | Clean HDMI output | A documented, evidence-backed method to output HDMI video without on-screen overlays, or a documented reason it is not possible. | 2026-11-26 (existing P510 goal) |
+| CAP-001 | RAW capture | A documented, evidence-backed method to capture RAW image data on the model, or a documented reason it is not possible. | 2026-11-26 (existing P510 goal) |
+| CAP-002 | Focus peaking | A documented, evidence-backed method to display focus peaking on the model, or a documented reason it is not possible. | 2026-11-26 (existing P510 goal) |
+| CAP-003 | Clean HDMI output | A documented, evidence-backed method to output HDMI video without on-screen overlays, or a documented reason it is not possible. | 2026-11-26 (existing P510 goal) |
 
-## Adding a goal
+## Capability lifecycle
 
-1. Add a row to the table above with the next ID, a name, a definition of done, and the date.
-2. Add a row for the goal to every `models/<model>/goals.md`, starting at **Not started**.
-3. Add a column for it to the status table in `README.md`.
-4. Add a matching issue label (for example `G-04`).
+Capabilities may be added, adopted, changed, or retired. Daqwan alone decides adoption.
+
+## Adding a capability
+
+Propose a capability in an issue. Once adopted, add it to this list and track it for every model.
 
 ## Evidence
 
-A status of **Confirmed** or **Not possible** must link to evidence in that model's folder. Evidence from one model is only a hypothesis for another model until independently verified (see `RESEARCH-RULES.md`).
+A status of **Achieved** or **Not possible** must link to evidence in that model's folder. Evidence from one model is only a hypothesis for another model until independently verified (see [RESEARCH-RULES.md](../../RESEARCH-RULES.md)).

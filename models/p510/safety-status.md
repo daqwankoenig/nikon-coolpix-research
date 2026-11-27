@@ -1,11 +1,11 @@
 # P510 safety status
 
-Approval for one action does not approve any other action, and approval for another model does not apply here. See [RESEARCH-RULES.md](../../RESEARCH-RULES.md).
+Physical-camera testing does not require written justification. Each proposed action still needs specific prior approval; approval for one action does not approve any other action, and approval for another model does not apply here. See [RESEARCH-RULES.md](../../RESEARCH-RULES.md).
 
 | Action | Status |
 |---|---|
-| Working hardware investigation | **NOT JUSTIFIED** |
-| Unknown PTP command execution | **NOT JUSTIFIED** |
+| Working hardware investigation | **NOT APPROVED** |
+| Unknown PTP command execution | **NOT APPROVED** |
 | Firmware modification | **BLOCKED** |
 | Firmware flashing | **BLOCKED** |
 | Donor camera acquisition | **DEFERRED** |
