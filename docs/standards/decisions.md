@@ -13,7 +13,7 @@ Decisions are recorded here. They are never deleted; superseded decisions remain
 | D-07 | Active | 2026-11-26 | Goals are catalog capabilities that have been adopted. | Separates the full catalog from active work. |
 | D-08 | Active | 2026-11-26 | Status fields: Built in? (Native / Partial / Not native / Unknown); Unlock (Not needed / Unknown / Not possible / Possible / Achieved); evidence label; evidence basis (Manual only / Observed on camera / Both). Absence from a manual caps the label at STRONGLY SUPPORTED HYPOTHESIS. One capability = one yes/no test. | Avoids overclaiming and the double meaning of "Confirmed". |
 | D-09 | Active | 2026-11-26 | Scope: every COOLPIX model. Registry first, then the hybrid order. | Open-ended scope without pretending it is researched. |
-| D-10 | Active | 2026-11-26 | One ID scheme, CAP-###. G-01..G-03 retired (now CAP-001..CAP-003). IDs are permanent. | Consistency. |
+| D-10 | Active | 2026-11-26 | One ID scheme, CAP-###. The previous goal IDs were retired (now CAP-001..CAP-003). IDs are permanent. | Consistency. |
 | D-11 | Active | 2026-11-26 | Separate list of enabling steps, STEP-##. | Different status vocabulary from capabilities. |
 | D-12 | Active | 2026-11-26 | New model: registry row at discovery; folder only when someone commits to research, after the intake checklist. | No empty folders. |
 | D-13 | Active | 2026-11-26 | Cross-model findings are labeled HYPOTHESIS on the target model with a link; CONFIRMED only after testing there. | Protects the trusted-source goal. |

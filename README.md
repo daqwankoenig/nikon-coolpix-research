@@ -24,9 +24,9 @@ New models are added as a new folder under `models/`, following the same structu
 
 | Goal | P510 | P520 | P500 |
 |---|---|---|---|
-| **G-01 RAW capture** | Blocked (feasibility unknown) | Not started | Reference only |
-| **G-02 Focus peaking** | Blocked (feasibility unknown) | Not started | Reference only |
-| **G-03 Clean HDMI output** | Blocked (feasibility unknown) | Not started | Reference only |
+| **CAP-001 RAW capture** | Blocked (feasibility unknown) | Not started | Reference only |
+| **CAP-002 Focus peaking** | Blocked (feasibility unknown) | Not started | Reference only |
+| **CAP-003 Clean HDMI output** | Blocked (feasibility unknown) | Not started | Reference only |
 
 - **Capabilities achieved:** [TO BE FILLED]
 - **Capabilities resolved (Achieved + Not possible):** [TO BE FILLED]
