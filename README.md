@@ -6,7 +6,7 @@ Open, evidence-led research into Nikon COOLPIX camera firmware and hardware. The
 
 ## Purpose
 
-This repository is for **research and preservation**. It does not contain Nikon firmware, and it does not authorize camera operations or firmware changes.
+This repository investigates whether locked features can be unlocked on specific COOLPIX models and aims to be a trusted public source on whether each is possible. It is for hobbyists and technical researchers: plain-language summaries come first, with technical details below. It does not contain Nikon firmware; users supply their own firmware.
 
 Goals are shared by all models. Once a goal is approved or planned for any camera, it is tracked for every camera. The current goal list is in [docs/standards/goals.md](docs/standards/goals.md).
 
@@ -24,9 +24,13 @@ New models are added as a new folder under `models/`, following the same structu
 
 | Goal | P510 | P520 | P500 |
 |---|---|---|---|
-| **G-01 RAW capture** | Blocked (feasibility unknown) | Not started | Reference only |
-| **G-02 Focus peaking** | Blocked (feasibility unknown) | Not started | Reference only |
-| **G-03 Clean HDMI output** | Blocked (feasibility unknown) | Not started | Reference only |
+| **CAP-001 RAW capture** | Blocked (feasibility unknown) | Not started | Reference only |
+| **CAP-002 Focus peaking** | Blocked (feasibility unknown) | Not started | Reference only |
+| **CAP-003 Clean HDMI output** | Blocked (feasibility unknown) | Not started | Reference only |
+
+- **Capabilities achieved:** [TO BE FILLED]
+- **Capabilities resolved (Achieved + Not possible):** [TO BE FILLED]
+- **Registered models with a complete, sourced matrix:** [TO BE FILLED]
 
 **Status values:** Not started, In progress, Confirmed, Not possible, Blocked, Not applicable (with a recorded reason), and Reference only (used as evidence for other models, not a target).
 
@@ -67,17 +71,17 @@ Firmware container, section, payload, and Ghidra analysis notes are in [models/p
 
 ## Safety status
 
-Physical-camera communication always requires explicit authorization. Never bypass signatures, access controls, or anti-tamper protections. See [RESEARCH-RULES.md](RESEARCH-RULES.md).
+Physical-camera testing does not require written justification. Testing is at Daqwan's discretion. See [RESEARCH-RULES.md](RESEARCH-RULES.md).
 
 | Action | P510 | P520 | P500 |
 |---|---|---|---|
-| Working hardware investigation | NOT JUSTIFIED | Not assessed | Not assessed |
-| Unknown PTP commands | NOT JUSTIFIED | Not assessed | Not assessed |
+| Working hardware investigation | NOT PLANNED | Not assessed | Not assessed |
+| Unknown PTP commands | NOT PLANNED | Not assessed | Not assessed |
 | Firmware modification | BLOCKED | BLOCKED | BLOCKED |
 | Firmware flashing | BLOCKED | BLOCKED | BLOCKED |
 | Donor camera acquisition | DEFERRED | Not assessed | Not assessed |
 
-Any new model starts with all physical-camera actions blocked until they are explicitly assessed and authorized.
+Each model's physical-camera status is recorded in its `safety-status.md`.
 
 ## Repository layout
 
@@ -102,6 +106,6 @@ This project is published so other researchers can verify, reuse, and continue C
 
 ## Repository and Codespaces
 
-GitHub Codespaces is intended for documentation, C source inspection and building, hash validation, and offline analysis. It cannot replace a local WSL/usbipd environment for physical USB work. No camera-control packages are installed or configured. Any later physical-camera interaction remains local-only and separately authorized.
+GitHub Codespaces is intended for documentation, C source inspection and building, hash validation, and offline analysis. It cannot replace a local WSL/usbipd environment for physical USB work. No camera-control packages are installed or configured. Any later physical-camera interaction remains local-only.
 
 See `.devcontainer/devcontainer.json` for the minimal C/research environment and `.gitignore` for the preservation and redistribution exclusions.

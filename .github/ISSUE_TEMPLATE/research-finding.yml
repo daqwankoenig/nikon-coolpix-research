@@ -26,9 +26,19 @@ body:
       label: Related goal
       options:
         - Not goal-specific
-        - G-01 RAW capture
-        - G-02 Focus peaking
-        - G-03 Clean HDMI output
+        - CAP-001 RAW capture
+        - CAP-002 Focus peaking
+        - CAP-003 Clean HDMI output
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence_basis
+    attributes:
+      label: Evidence basis
+      options:
+        - Manual only
+        - Observed on camera
+        - Both
     validations:
       required: true
   - type: dropdown
@@ -65,4 +75,6 @@ body:
         - label: I have not attached or pasted firmware, proprietary files, or credentials.
           required: true
         - label: I did not run anything on a physical camera that was not explicitly approved.
+          required: true
+        - label: I removed hidden photo data (location, serial number).
           required: true

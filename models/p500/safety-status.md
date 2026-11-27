@@ -1,6 +1,6 @@
 # P500 safety status
 
-Approval for one action does not approve any other action, and approval for another model does not apply here. See [RESEARCH-RULES.md](../../RESEARCH-RULES.md).
+Physical-camera testing does not require written justification. Testing is at Daqwan's discretion. See [RESEARCH-RULES.md](../../RESEARCH-RULES.md).
 
 | Action | Status |
 |---|---|

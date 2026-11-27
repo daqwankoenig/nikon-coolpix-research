@@ -1,29 +1,32 @@
 # Third-Party Material Notice
 
 This repository is intended to preserve original research notes, source code,
-scripts, and first-party observations about several Nikon COOLPIX camera models.
-Third-party firmware, installers, manuals, images, archived web content, and
-other externally copyrighted artifacts have generally been excluded from the
-repository. This applies to every model.
+scripts, and first-party observations about Nikon COOLPIX camera models.
 
-Where research depends on excluded material, the project may preserve
-identifying metadata such as filenames, file sizes, SHA-256 hashes, source
-URLs, provenance, and research references. These records support verification
-or lawful reacquisition; they do not reproduce or grant rights to the excluded
-material.
+Where research depends on excluded material, record only its hash, size, source
+URL, and provenance. These records support verification or lawful
+reacquisition; they do not reproduce or grant rights to the excluded material.
+
+## Allowed contributions
+
+Contributors may submit photos and files they created of their own camera (for
+example, camera photos or menu screenshots), with a statement that they own
+them and agree to the repository's MIT license. Remove hidden data (location,
+serial number) first.
+
+## Not allowed
+
+Do not submit Nikon firmware, installers, manuals or other Nikon files, or any
+photo or file made by someone else. Record only the hash, size, source URL, and
+provenance.
 
 The repository's MIT license applies only to original material contributed to
-this repository. It does **not** license or grant permission to download,
-copy, modify, redistribute, or otherwise use third-party Nikon firmware,
-Nikon software, Nikon documentation, iFixit material, marketplace imagery,
-archived web content, or any other externally copyrighted material. Users are
-responsible for obtaining any permissions or licenses required for such
-material.
+this repository. It does not relicense third-party material.
 
 ## Firmware
 
-Firmware for every model is kept only in a local, ignored `firmware/` folder
-on the researcher's own computer. It is never committed. Only
+Users supply their own firmware, which is kept only in a local, ignored
+`firmware/` folder. It is never committed. Only
 `firmware/README.md` is tracked.
 
 ## Reference models
